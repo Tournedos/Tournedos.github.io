@@ -33,7 +33,7 @@ This period coincides with the acceleration of TikTok and Instagram video. Trend
 The results clarify whether YouTube became a hub for long-form, niche, or professionalized content, while lighter entertainment migrated elsewhere.
 
 <figure>
-  <img src="/assets/lib/img/Scheme1.png" alt="Scheme" width="800px">
+  <img src="/assets/img/Scheme1.png" alt="Scheme" width="800px">
   <figcaption>Figure 1: Overview of Battle Royale emergence and impact, following the YouNiverse Timescale</figcaption>
 </figure>
 
