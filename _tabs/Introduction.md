@@ -4,49 +4,62 @@ layout: page
 icon: fas fa-info-circle
 order: 1
 ---
-## Evolution of Gaming Content
 
-Gaming videos are one of YouTube’s biggest categories. This project tracks how gaming content evolved between 2005 and 2019 by combining channel-level growth with video-level metadata. Using titles and tags, we can identify popular games and compare the rise and decline of sub-genres like:
+# 0. Introduction
 
-- Sandbox (Minecraft)  
-- MOBAs (League of Legends)  
-- Shooters  
-- Mobile games  
+## 0.1 What is a Battle Royale game?
 
-We can also examine whether YouTube gaming popularity reflects “real” game success by comparing with external statistics on game sales or player counts. Another angle is to compare engagement across platforms: do PC and console games exhibit similar popularity trends on YouTube over time? Finally, we study the influence of Twitch (launched 2011, prospering from 2014): did YouTube gaming channels lose popularity as live streaming drew viewers away?  
+In this project, we define **Battle Royale (BR) games** as a specific subgenre of online multiplayer games where a large number of players compete in the same match with a single objective: **be the last player (or team) alive**.
 
-This project reveals both cultural shifts in gaming and the impact of platform competition on content creation.
+Although implementations differ from game to game, most Battle Royale titles share a common set of mechanics:
 
----
+### Large-scale matches
+Typically between **50 and 150 players** spawn into the same map and compete in a single shared match.
 
-## The Emergence of Scrollable Content
+### Minimal starting equipment
+Players usually start with **little or no gear** and must loot weapons, armor, and resources directly in the game world.
 
-The late 2010s saw the rapid rise of competitors such as TikTok and Instagram video, reshaping online content consumption. This project asks: did YouTube engagement decline in parallel with the emergence of these new platforms, and if so, which content fields were most affected?  
+### Shrinking safe zone
+A circular “**safe zone**” progressively shrinks over time. Players outside this zone take damage, forcing everyone into **closer encounters**.
 
-We examine whether categories such as short entertainment clips (e.g., fails, memes) lost engagement faster than more resilient formats like long podcasts or complex tutorials. The approach analyzes:
+### Permanent elimination
+Once a player (or squad) is eliminated, they **do not respawn** in the same match. Every fight can therefore be decisive.
 
-- Video-level metadata (view counts, likes, upload frequency)  
-- Channel-level time series (subscriber growth) between 2017–2019  
+### High variability between matches
+The combination of **random loot**, different drop locations, and changing safe zones creates **high variability** from one game to another.
 
-This period coincides with the acceleration of TikTok and Instagram video. Trends are compared across content categories, controlling for channel age and size. Importantly, the phenomenon must have been detectable on YouTube itself, as the platform eventually launched **YouTube Shorts** in response to short-form competitors.  
-
-The results clarify whether YouTube became a hub for long-form, niche, or professionalized content, while lighter entertainment migrated elsewhere.
+From a content perspective, these characteristics make Battle Royale games extremely **YouTube-friendly**:  
+they naturally generate **clutch moments, comebacks, chaotic endgames**, and **highlight-worthy plays**, which are ideal for **short-form clips, montages**, and **high-intensity streams**.
 
 <figure>
-  <img src="/assets/img/Scheme1.png" alt="Scheme" width="800px">
+  <img src="/assets/img/Scheme1.png" alt="Scheme" width="600px">
   <figcaption>Figure 1: Overview of Battle Royale emergence and impact, following the YouNiverse Timescale</figcaption>
 </figure>
 
-## Research Questions
+## 0.2 A short historical background of the Battle Royale genre
 
-1. **Influence of Battle Royale Games**  
-   Which Battle Royale games drove the emergence of the genre? Consider innovations like Fortnite's creator code, early esports, or new gameplay mechanics that may have boosted video production.
+The idea behind **Battle Royale** in games predates the genre label itself. On the fiction side, many authors and films explored “last-person-standing” death games. A clear reference point in game journalism is **Koushun Takami’s 1999 novel *Battle Royale*** and its 2000 film adaptation, in which a group of students is forced to fight until only one survives. Several game journalists explicitly link the structure of modern Battle Royale games to this story template.
 
-2. **Impact on Other Genres**  
-   Which genres were most affected by the rise of Battle Royale ? Did Battle Royale introduce new video formats (duration, frequency) that other genres adopted?
+On the game design side, the genre evolved from **mods for survival and sandbox games** in the early 2010s. Key early experiments included:
 
-3. **Impact on Creators**  
-   How did creators migrate to Battle Royale ? From which genres did they come? Did they leave their original content to focus only on BR? How did this affect subscribers, views, and video output? Did creators eventually return to other genres?
+- Community “Hunger Games” / Survival Games plugins for **Minecraft** around 2012.
+- **DayZ** and later **Arma 2 / Arma 3 survival mods**.
+- Brendan “PlayerUnknown” Greene’s **Battle Royale mods**, introducing **large lobbies, random loot, and a shrinking safe zone** on military-style maps.
+- **H1Z1: King of the Kill** (2015), one of the first standalone shooters built fully around this format.
 
-4. **Impact on Viewer Communities**  
-   How did Battle Royale emergence influence audience migration between genres? Which communities grew, shrank, or shifted focus?
+The modern Battle Royale “boom” occurred in the **mid-to-late 2010s**, with widely recognized milestones:
+
+- **2017** — *PlayerUnknown’s Battlegrounds (PUBG)* brings the mod formula to a commercial Steam release, popularizing the now-standard loop: ~100 players drop from a plane, loot, and fight inside a shrinking circle.
+- **2017** — *Fortnite Battle Royale* launches as a free mode, quickly reaching a wider audience than PUBG, helped by its **accessibility, building mechanics, and cross-platform support**.
+- **2019–2020** — *Apex Legends* and *Call of Duty: Warzone* integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a **mainstream competitive format**.
+
+In this project, we focus on the modern wave of Battle Royale titles (from **H1Z1, PUBG, and Fortnite onwards**) and study how their rise **reshaped YouTube gaming content**.
+
+### References
+
+1. GameSpot – “Battle Royale Games Explained: Fortnite, PUBG, And What’s Next” (2019)  
+2. Polygon – “Hunting down the true origins of the battle royale craze” (2019)  
+3. PC Gamer – “How battle royale changed the last decade of games (and the next one)” (2019)  
+4. The Guardian – “Battle royale: the design secrets behind gaming’s biggest trend” (2019)  
+5. Acer Blog – “A Brief History of the Battle Royale Genre” (2022)  
+6. The New Yorker – “How ‘Battle Royale’ Took Over Video Games” (2023)
