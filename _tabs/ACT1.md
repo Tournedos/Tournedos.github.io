@@ -101,7 +101,7 @@ To keep the analysis readable, we focus on the **top 7 gaming genres**, which ca
 
 <h3 style="color:#003c9e;"> Why is 2017–2018 our period of interest? </h3>
 
-- The Battle Royale explosion occurs **precisely between 2017 and 2018**.  
+- The Battle Royale explosion occurs precisely between 2017 and 2018.  
 - This boom is driven by the rapid rise of **H1Z1**, **PUBG**, and especially **Fortnite**.  
 - Studying this window captures the disruptive impact of BR on YouTube gaming.  
 - Confirming that the Top-7 genres remain stable in this period ensures that filtering does not distort the ecosystem’s dynamics.
@@ -110,11 +110,11 @@ To keep the analysis readable, we focus on the **top 7 gaming genres**, which ca
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.1 — Growth of Battle Royale vs other gaming genres
+  1.1 Growth of Battle Royale vs other gaming genres
 </h2>
 
 We first examine how the volume of Battle Royale uploads and views evolved relative to other dominant gaming genres.  
-The objective is not only to detect growth, but to compare **rates and persistence**: did BR merely spike or did it structurally alter the hierarchy of YouTube gaming?
+The objective is not only to detect growth, but to compare rates and persistence: did BR merely spike or did it structurally alter the hierarchy of YouTube gaming?
 
 <h3 style="color:#003c9e;"> Absolute evolution of uploads and views </h3>
 
@@ -160,7 +160,7 @@ Sandbox and FPS remain strong throughout the period, but neither displays a comp
 
 <h3 style="color:#003c9e;"> Relative shares within the gaming ecosystem </h3>
 
-Looking at **shares** rather than absolute volumes clarifies how BR reshaped the upper layer of YouTube gaming.
+Looking at shares rather than absolute volumes clarifies how BR reshaped the upper layer of YouTube gaming.
 
 Before 2017, FPS and Sandbox dominate uploads and views. During the BR boom, Battle Royale rapidly gains share—mostly at the expense of Sandbox in views and modestly at the expense of both Sandbox and FPS in uploads.  
 Importantly, mid-tier genres remain remarkably stable, indicating that the disruption is concentrated at the top of the hierarchy.
@@ -198,7 +198,7 @@ By 2018–2019, BR occupies a persistent and large share of both uploads and vie
 
 <h3 style="color:#003c9e;"> Which genres were hit hardest? </h3>
 
-Growth-rate comparisons across three phases—pre-BR, BR boom, and post-BR—show how exceptional BR’s rise was.
+Growth-rate comparisons across three phases—pre (BR, BR boom, and post-BR) show how exceptional BR’s rise was.
 
 During the boom period, Battle Royale exhibits explosive growth in both uploads and views, while most other major genres experience stagnation or decline, particularly in views.  
 After the boom, BR continues to grow in uploads and stabilizes at high view levels, while other genres fail to return to their pre-boom growth trajectories.
@@ -235,7 +235,7 @@ This strongly suggests that BR did not merely coexist with existing genres, but 
 </div>
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.2 — Which Battle Royale games led the wave?
+  1.2 Which Battle Royale games led the wave?
 </h2>
 
 The Battle Royale genre is not driven by a single title but by a sequence of releases that shaped its internal dynamics.  
@@ -311,16 +311,16 @@ Fortnite emerges as the central engine of BR visibility on YouTube.
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.3 — Did Battle Royale grow YouTube gaming or reshuffle it?
+  1.3 Did Battle Royale grow YouTube gaming or reshuffle it?
 </h2>
 
 We now shift to a platform-wide perspective, comparing Battle Royale, non-BR gaming, and total gaming activity, normalized to a common 2016 baseline.
 
 <h3 style="color:#003c9e;"> Overall growth effects </h3>
 
-On the **upload side**, BR clearly expands the YouTube gaming pie. Non-BR uploads remain stable while BR adds a large and persistent layer of new production.
+On the upload side, BR clearly expands the YouTube gaming pie. Non-BR uploads remain stable while BR adds a large and persistent layer of new production.
 
-On the **view side**, the picture is more mixed. BR contributes to higher total viewership but this increase is accompanied by a visible decline in non-BR views, indicating partial attention reallocation.
+On the view side, the picture is more mixed. BR contributes to higher total viewership but this increase is accompanied by a visible decline in non-BR views, indicating partial attention reallocation.
 
 <!-- FIGURE: Indexed uploads & views (BR vs non-BR vs total) -->
 <div class = "plot-card">
@@ -358,10 +358,10 @@ This asymmetry highlights a key result: BR does not dominate creator output but 
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.4 — Synthesis
+  1.4 Synthesis
 </h2>
 
-Act 1 shows that Battle Royale represents a **structural break** in YouTube gaming.  
+Act 1 shows that Battle Royale represents a structural break in YouTube gaming.  
 Arriving late, BR grows faster than any existing genre, stabilizes at high levels, and reshapes the top tier of the ecosystem.
 
 At the game level, the eruption follows a clear sequence: H1Z1 initiates, PUBG accelerates and Fortnite establishes a lasting regime.  
