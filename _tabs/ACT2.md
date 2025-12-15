@@ -9,16 +9,9 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- ====== Carousel container ====== -->
+<!-- ====== IMAGES SLIDER ====== -->
 <div class="carousel-wrapper">
-
-  <noscript>
-    <div class="js-fallback">
-      <img src="/assets/img/img_2/FortniteWP.jpg" alt="Fortnite" />
-    </div>
-  </noscript>
-
-  <div class="swiper mySwiper">
+  <div class="swiper imagesSwiper">
     <div class="swiper-wrapper">
 
       <div class="swiper-slide">
@@ -34,10 +27,38 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
       </div>
 
     </div>
-
     <div class="swiper-pagination"></div>
   </div>
+</div>
 
+<!-- ====== FIGURES SLIDER ====== -->
+<div class="carousel-wrapper">
+  <div class="swiper figuresSwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <iframe src="/assets/plots/plots_2/figure_1_1.html" class="figure-frame"></iframe>
+      </div>
+
+      <div class="swiper-slide">
+        <iframe src="/assets/plots/plots_2/figure_1_2.html" class="figure-frame"></iframe>
+      </div>
+
+      <div class="swiper-slide">
+        <iframe src="/assets/plots/plots_2/figure_1_3.html" class="figure-frame"></iframe>
+      </div>
+
+      <div class="swiper-slide">
+        <iframe src="/assets/plots/plots_2/figure_1_4.html" class="figure-frame"></iframe>
+      </div>
+
+      <div class="swiper-slide">
+        <iframe src="/assets/plots/plots_2/figure_1_5.html" class="figure-frame"></iframe>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
 </div>
 
 <!-- ====== Styles ====== -->
@@ -52,16 +73,10 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
   padding: 2rem 0;
 }
 
-/* Only ONE swiper-slide definition */
 .swiper-slide {
-  width: 520px;
-  height: 290px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.20);
+  align-items: center;
   background: #0f1720;
 }
 
@@ -69,6 +84,14 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.figure-frame {
+  width: 100%;
+  height: 600px;  /* entire figure visible */
+  border: none;
 }
 
 .swiper-pagination {
@@ -77,34 +100,35 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 
 /* Responsive */
 @media (max-width: 700px) {
-  .swiper-slide { width: 86vw; height: 50vw; }
+  .swiper-slide img { width: 86vw; height: auto; }
+  .figure-frame { height: 50vw; }
   .carousel-wrapper { padding: 0 1rem; }
 }
 </style>
 
-<!-- ====== Init script ====== -->
+<!-- ====== Init scripts ====== -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   if (typeof Swiper === 'undefined') return;
-  new Swiper('.mySwiper', {
+
+  // IMAGES SLIDER (fancy coverflow)
+  new Swiper('.imagesSwiper', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
     loop: false,
     spaceBetween: 16,
+    coverflowEffect: { rotate: 18, stretch: 0, depth: 120, modifier: 1, slideShadows: true },
+    pagination: { el: '.imagesSwiper .swiper-pagination', clickable: true }
+  });
 
-    coverflowEffect: {
-      rotate: 18,
-      stretch: 0,
-      depth: 120,
-      modifier: 1,
-      slideShadows: true
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    }
+  // FIGURES SLIDER (full figure visible, no zoom)
+  new Swiper('.figuresSwiper', {
+    slidesPerView: 1,           // only 1 figure visible at a time
+    spaceBetween: 16,
+    loop: false,
+    pagination: { el: '.figuresSwiper .swiper-pagination', clickable: true }
   });
 });
 </script>
