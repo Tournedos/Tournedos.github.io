@@ -9,7 +9,7 @@ title: "ACT 0 - Introduction"
   <h2 style="color:#003c9e; font-size:3rem; font-weight:900; margin:0;">
     Pre-Battle Royale context
   </h2>
-  <img src="/assets/img/victoryroyale.png" alt="Scheme" style="width:800px; height:auto;">
+  <img src="/assets/img/img_0/victoryroyale.png" alt="Scheme" style="width:800px; height:auto;">
 </div>
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
@@ -22,7 +22,7 @@ In this project, we define Battle Royale (BR) games as a specific subgenre of on
 <figure>
   <figcaption style="text-align: center;color: #666666; font-style: italic;">
   Core mechanisms of a battle royale game</figcaption>
-  <img src="/assets/img/Scheme2.png" alt="Scheme" width="800px">
+  <img src="/assets/img/img_0/Scheme2.png" alt="Scheme" width="800px">
 </figure>
 
 From a content perspective, these characteristics make Battle Royale games extremely YouTube-friendly:  
@@ -152,7 +152,7 @@ From this dataset we build our game panel in four main steps:
 Within this panel, licences annotated as Battle Royale (e.g. H1Z1 / Z1: Battle Royale, PLAYERUNKNOWN’S BATTLEGROUNDS, Fortnite, Apex Legends) form our BR game set, which we will later try to trace on YouTube using genre classification.
 
 <figure>
-  <img src="/assets/img/twitch1.png" alt="Scheme" width="20000px">
+  <img src="/assets/img/img_0/twitch1.png" alt="Scheme" width="20000px">
   <figcaption style="color: #666666; font-style: italic;">
     Top 50 games from Twitch dataset
   </figcaption>

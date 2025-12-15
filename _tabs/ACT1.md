@@ -56,7 +56,7 @@ html.dark .plot-card {
   </h2>
 
   <img 
-    src="/assets/img/eruption1.png" 
+    src="/assets/img/img_1/eruption1.png" 
     alt="Scheme" 
     style="width:800px; height:auto; border-radius:24px;
     "
@@ -183,7 +183,7 @@ By 2018–2019, BR occupies a persistent and large share of both uploads and vie
 
 <div style="display:flex; justify-content:center; margin:2rem 0;">
   <img 
-    src="/assets/img/fortnite_vs.jpeg" 
+    src="/assets/img/img_1/fortnite_vs.jpeg" 
     alt="Image"
     style="
       width:90%;
@@ -221,7 +221,7 @@ This strongly suggests that BR did not merely coexist with existing genres, but 
 
 <div style="display:flex; justify-content:center; margin:2rem 0;">
   <img 
-    src="/assets/img/crown.jpg" 
+    src="/assets/img/img_1/crown.jpg" 
     alt="Image"
     style="
       width:60%;
@@ -374,7 +374,7 @@ At the ecosystem level, BR expands content production while simultaneously redir
 
 <div style="display:flex; justify-content:center; margin:2rem 0;">
   <img 
-    src="/assets/img/domination.png" 
+    src="/assets/img/img_1/domination.png" 
     alt="Image"
     style="
       width:90%;
