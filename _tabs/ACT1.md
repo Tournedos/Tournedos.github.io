@@ -235,7 +235,7 @@ This strongly suggests that BR did not merely coexist with existing genres, but 
 </div>
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.2 Which Battle Royale games led the wave?
+  Which Battle Royale games led the wave?
 </h2>
 
 The Battle Royale genre is not driven by a single title but by a sequence of releases that shaped its internal dynamics.  
@@ -311,7 +311,7 @@ Fortnite emerges as the central engine of BR visibility on YouTube.
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.3 Did Battle Royale grow YouTube gaming or reshuffle it?
+  Did Battle Royale grow YouTube gaming or reshuffle it?
 </h2>
 
 We now shift to a platform-wide perspective, comparing Battle Royale, non-BR gaming, and total gaming activity, normalized to a common 2016 baseline.
@@ -358,7 +358,7 @@ This asymmetry highlights a key result: BR does not dominate creator output but 
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.4 Synthesis
+  Synthesis
 </h2>
 
 Act 1 shows that Battle Royale represents a structural break in YouTube gaming.  
