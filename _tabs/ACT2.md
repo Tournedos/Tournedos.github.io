@@ -14,7 +14,7 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 
   <noscript>
     <div class="js-fallback">
-      <img src="/assets/img/FortniteWP.jpg" alt="Fortnite" />
+      <img src="/assets/img/img_2/FortniteWP.jpg" alt="Fortnite" />
     </div>
   </noscript>
 
@@ -22,15 +22,15 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
     <div class="swiper-wrapper">
 
       <div class="swiper-slide">
-        <img src="/assets/img_2/slider1.jpg" alt="Fortnite">
+        <img src="/assets/img/img_2/slider1.jpg" alt="Fortnite">
       </div>
 
       <div class="swiper-slide">
-        <img src="/assets/img_2/slider2.jpg" alt="PUBG">
+        <img src="/assets/img/img_2/slider2.jpg" alt="PUBG">
       </div>
 
       <div class="swiper-slide">
-        <img src="/assets/img_2/slider3.jpg" alt="Apex Legends">
+        <img src="/assets/img/img_2/slider3.jpg" alt="Apex Legends">
       </div>
 
     </div>
