@@ -4,12 +4,26 @@ icon: fas fa-stream
 order: 4
 title : ACT 3 - Audience shift
 ---
+<style>
+.plot-container {
+  width: 100%;
+  max-width: 1100px;   /* control horizontal size */
+  margin: 2rem auto;
+}
+
+.plot-container iframe {
+  width: 100%;
+  height: 600px;       /* THIS is the key line */
+  border: none;
+}
+</style>
+
 
 <div style="display: flex; align-items: center; gap: 2rem;">
   <h2 style="color:#003c9e; font-size:3rem; font-weight:600; margin:0;">
     Did viewers migrate to Battle Royale content, and how did community dynamics change ?
   </h2>
-  <img src="/assets/img_3/comment.png" alt="Scheme" style="width:1000px; height:auto;">
+  <img src="/assets/img/img_3/comment.png" alt="Scheme" style="width:1000px; height:auto;">
 </div>
 
 <style>
@@ -57,6 +71,13 @@ Now that we have analyzed how the emergence of Battle Royale impacted the gaming
   3.3 Did engagement dynamics differ for BR content?
 </h2>
 ## celui ds results
+<div class="plot-container">
+  <iframe
+    src="/assets/plots/plots_3/plot_3_3.html"
+    loading="lazy"
+    title="Plot 01 – Engagement by Genre"
+  ></iframe>
+</div>
 
 Now we're going to focus on whether the engagement dynamics differ for Battle Royale content. More specifically, the goal is to analyze whether the new communities and the people that have started to consumme this type of content showed more engagement, or maybe less, for the videos. This can be performed by analyzing several factors as the ratio of likes per views (LPV). This ratio could indicate how implicated are the people who watch the videos. We can think of that because the viewers, that only watch the videos without liking it, could be thought to be less passionate by the content than the ones who like the videos all the time.
 

@@ -109,7 +109,7 @@ To do this, we organize the project into five main steps, each with its own guid
 </table>
 
 <figure>
-  <img src="/assets/img/Scheme1.png" alt="Scheme" width="600px">
+  <img src="/assets/img/img_0/Scheme1.png" alt="Scheme" width="600px">
   <figcaption style="text-align: center;color: #666666; font-style: italic;">Overview of Battle Royale emergence and impact, following the YouNiverse Timescale</figcaption>
 </figure>
 
