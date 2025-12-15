@@ -86,7 +86,6 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   if (typeof Swiper === 'undefined') return;
-
   new Swiper('.mySwiper', {
     effect: 'coverflow',
     grabCursor: true,
@@ -102,7 +101,6 @@ document.addEventListener('DOMContentLoaded', function () {
       modifier: 1,
       slideShadows: true
     },
-
     pagination: {
       el: '.swiper-pagination',
       clickable: true
@@ -111,23 +109,44 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<style>
+  .question-box {
+    background: #0a4fffde;
+    background: var(--qbox-bg, #0a4fffde);
+    color: white;                          
+    padding: 1.2rem 1.6rem;
+    border-radius: 12px;
+    margin: 1.8rem 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  }
 
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  Did posting BR videos accelerate channel growth ?
-</h2>
+  .question-box-title {
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.06em;
+  }
 
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  Did existing creators pivot to BR content ?
-</h2>
+  html[data-theme="dark"] .question-box {
+    --qbox-bg: #003cbd;
+    border-color: rgba(255,255,255,0.15);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+</style>
 
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  Were BR-focused creators more "opportunistic" ?
-</h2>
+<div class="question-box">
+  <div class="question-box-title">Key Questions</div>
+  <ul>
+    <li>Did posting BR videos accelerate channel growth ?</li>
+    <li>Did existing creators pivot to BR content ?</li>
+    <li>Were BR-focused creators more "opportunistic" ?</li>
+    <li>Did creators abuse BR tags for visibility ?</li>
+    <li>Did BR introduce new video formats (length, frequency) ?</li>
+    <li>Did BR introduce new video formats (length, frequency) ?</li>
+  </ul>
+</div>
 
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  Did creators abuse BR tags for visibility ?
-</h2>
+test test
 
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  Did BR introduce new video formats (length, frequency) ?
-</h2>

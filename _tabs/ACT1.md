@@ -110,7 +110,7 @@ To keep the analysis readable, we focus on the **top 7 gaming genres**, which ca
 ---
 
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  1.1 Growth of Battle Royale vs other gaming genres
+  Growth of Battle Royale vs other gaming genres
 </h2>
 
 We first examine how the volume of Battle Royale uploads and views evolved relative to other dominant gaming genres.  
