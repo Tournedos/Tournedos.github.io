@@ -19,6 +19,7 @@ title: "ACT 0 - Introduction"
 In this project, we define Battle Royale (BR) games as a specific subgenre of online multiplayer games where a large number of players compete in the same match with a single objective: be the last player (or team) alive. Although implementations differ from game to game, most Battle Royale titles share a common set of mechanics:
 
 
+
 <figure>
   <figcaption style="text-align: center;color: #666666; font-style: italic;">
   Core mechanisms of a battle royale game</figcaption>
