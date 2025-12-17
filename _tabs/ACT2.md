@@ -95,7 +95,7 @@ The proportion analysis therefore demonstrates that Battle Royale substantially 
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Interpretation</h3>
 
-The direct inflow analysis shows that FPS is by far the main source of Battle Royale creators, with 912 transitions—more than 2.5 times the second-largest contributor, Sandbox (358). Sports (301) and Single Player / Open World (205) follow, while traditionally competitive genres such as MOBA (46) and MMORPG (27) contribute relatively few creators.
+The direct inflow analysis shows that FPS is by far the main source of Battle Royale creators, with 912 transitions, more than 2.5 times the second-largest contributor, Sandbox (358). Sports (301) and Single Player / Open World (205) follow, while traditionally competitive genres such as MOBA (46) and MMORPG (27) contribute relatively few creators.
 
 This ranking is intuitive. Battle Royale shares core mechanics with shooters (aiming, weapons, movement), open-world or survival games (looting, map navigation), and sports titles (competitive multiplayer and seasonal dynamics). Creators from these genres therefore possess transferable skills and are likely to appeal to similar audiences.
 
