@@ -58,6 +58,8 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
   }
 </style>
 
+---
+
 <div class="question-box">
   <div class="question-box-title">Key Questions</div>
   <ul>
@@ -106,10 +108,13 @@ However, absolute inflow counts alone do not resolve the cannibalization questio
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Approach 3 : Transition Flow Correlations</h3>
 Finally, we test whether quarterly transition flows TO Battle Royale correlate with flows TO other genres. A significant negative correlation would suggest competition for incoming creators. Before running the correlation analysis, we verified whether the data satisfied the standard assumptions of Pearson correlation.
 
-<iframe
-  src="/assets/plots/plots_2/phase_transition_mat©rix_slider.html"
-  style="width:100%; height:95vh; border:none;"
-></iframe>
+<div style="width:100%; height:100vh;">
+  <iframe
+    src="/assets/plots/plots_2/phase_transition_matrix_slider.html"
+    style="width:100%; height:100%; border:none;"
+    scrolling="no">
+  </iframe>
+</div>
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Interpretation</h3>
 

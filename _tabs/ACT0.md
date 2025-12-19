@@ -12,6 +12,8 @@ title: "ACT 0 - Introduction"
   <img src="/assets/img/img_0/victoryroyale.png" alt="Scheme" style="width:800px; height:auto;">
 </div>
 
+---
+
 <h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
   What defines a Battle Royale game?
 </h2>
