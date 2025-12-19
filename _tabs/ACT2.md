@@ -107,7 +107,7 @@ However, absolute inflow counts alone do not resolve the cannibalization questio
 Finally, we test whether quarterly transition flows TO Battle Royale correlate with flows TO other genres. A significant negative correlation would suggest competition for incoming creators. Before running the correlation analysis, we verified whether the data satisfied the standard assumptions of Pearson correlation.
 
 <iframe
-  src="/assets/plots/plots_2/phase_transition_matrix_slider.html"
+  src="/assets/plots/plots_2/phase_transition_mat©rix_slider.html"
   style="width:100%; height:95vh; border:none;"
 ></iframe>
 
