@@ -38,10 +38,9 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Tournedos
-  email: louis.tschanz@epfl.ch # change to your email address
+  name: Louis
+  email: # change to your email address
   links:
-    - https://github.com/Tournedos
     # The first element serves as the copyright owner's link
     # change to your Twitter homepage
     # change to your GitHub homepage
@@ -94,9 +93,6 @@ pageviews:
 #     dark — Use the dark color scheme
 #
 theme_mode: light # [light | dark]
-
-exclude :
-- vendor
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
