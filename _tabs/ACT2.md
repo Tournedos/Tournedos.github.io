@@ -3,6 +3,7 @@ layout: page
 icon: fas fa-stream
 order: 3
 title: "ACT 2 — Creators Response"   # this is used in sidebar             # custom key Chirpy uses to hide top title
+permalink: /act2/
 ---
 
 <!-- ====== Swiper CSS & JS ====== -->
@@ -21,7 +22,7 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 </figure>
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">The Turning point</h3>
-The year 2017 emerges as a clear turning point, coinciding with the rapid expansion of the Battle Royale genre following the release of Fortnite. Prior to 2017, creators predominantly transition toward the FPS genre. From 2017 onward, Battle Royale captures the majority of transitions that previously targeted FPS, suggesting a structural shift in genre dynamics. This observation motivates an explicit investigation into whether Battle Royale effectively absorbed transition flows from other genres.
+The year 2017 emerges as a clear turning point, coinciding with the rapid expansion of the Battle Royale genre following the release of Fortnite. Prior to 2017, creators predominantly transition toward the FPS genre. From 2017 onward, Battle Royale captures the majority of transitions that previously targeted FPS, suggesting a structural shift in genre dynamics. This observation motivates an explicit investigation into whether Battle Royale effectively absorbed transition flows from other genres. Throughout this Act, we will be answering the three following questions :
 
 <style>
   .question-box {
@@ -55,14 +56,62 @@ The year 2017 emerges as a clear turning point, coinciding with the rapid expans
 <div class="question-box">
   <div class="question-box-title">Key Questions</div>
   <ul>
-    <li>Did existing creators pivot to BR content ?</li>
-    <li>Did posting BR videos accelerate channel growth ?</li>
-    <li>Did BR introduce new video formats (length, frequency) ?</li>
+    <li>
+      <a href="#q1" style="color:white; text-decoration:none;border-bottom:none;">
+        Did existing creators pivot to BR content ?
+      </a>
+    </li>
+    <li>
+      <a href="#q2" style="color:white; text-decoration:noneborder-bottom:none;;">
+        Did posting BR videos accelerate channel growth ?
+      </a>
+    </li>
+    <li>
+      <a href="#q3" style="color:white; text-decoration:none;border-bottom:none;">
+        Did BR introduce new video formats (length, frequency) ?
+      </a>
+    </li>
   </ul>
 </div>
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">(2.1) Did existing creators pivot to BR content ?</h2>
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Approach 1 : Proportions Of Channels in each Genre Phase Over Time</h3>
+<h2 id="q1" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  (2.1) Did existing creators pivot to BR content ?
+</h2>
+
+<table style="width:100%; border-collapse: collapse; text-align: left; font-size:0.75rem;">
+  <thead>
+    <tr style="background-color:#003c9e; color:white;">
+      <th style="padding:6px;">Approach</th>
+      <th style="padding:6px;">Question</th>
+      <th style="padding:6px;">Cannibalization Signal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:#f0f0f0;">
+      <td style="padding:6px;">
+        <a href="#proportions" style="color:#003c9e; text-decoration:underline;">Genre proportions over time</a>
+      </td>
+      <td style="padding:6px;">What share of active channels are in each genre at time t?</td>
+      <td style="padding:6px;">If BR rises while other genres fall, suggests displacement</td>
+    </tr>
+    <tr>
+      <td style="padding:6px;">
+        <a href="#direct-inflows" style="color:#003c9e; text-decoration:underline;">Direct inflows to BR</a>
+      </td>
+      <td style="padding:6px;">Which genres did BR creators come from?</td>
+      <td style="padding:6px;">Shows exactly where BR pulled creators from</td>
+    </tr>
+    <tr style="background-color:#f0f0f0;">
+      <td style="padding:6px;">
+        <a href="#transition-correlations" style="color:#003c9e; text-decoration:underline;">Transition correlations</a>
+      </td>
+      <td style="padding:6px;">Do quarterly flows to genre X correlate with flows to BR?</td>
+      <td style="padding:6px;">Negative correlation suggests competition for incoming creators</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="proportions" style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">First Approach: Proportions Of Channels in each Genre Phase Over Time</h3>
 
 <iframe
   src="/assets/plots/plots_2/genre_composition_interactive.html"
@@ -77,7 +126,7 @@ These correlations must be interpreted with care. Genre proportions are zero-sum
 
 The proportion analysis therefore demonstrates that Battle Royale substantially reshaped the genre landscape in relative terms, but it does not explain the underlying mechanism. In particular, it cannot determine whether Battle Royale **drew creators away** from existing genres, **absorbed creators** who would otherwise have entered those genres, or expanded primarily by **attracting new creators**.To address this question, we next analyze direct inflows into the Battle Royale genre to identify the actual sources of its growth.
 
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Approach 2 : Direct Inflows to Battle Royale</h3>
+<h3 id="direct-inflows" style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Second Approach : Direct Inflows to Battle Royale</h3>
 
 <iframe
   src="/assets/plots/plots_2/br_inflows_sankey.html"
@@ -86,15 +135,15 @@ The proportion analysis therefore demonstrates that Battle Royale substantially 
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Interpretation</h3>
 
-The direct inflow analysis shows that FPS is by far the main source of Battle Royale creators, with 912 transitions, more than 2.5 times the second-largest contributor, Sandbox (358). Sports (301) and Single Player / Open World (205) follow, while traditionally competitive genres such as MOBA (46) and MMORPG (27) contribute relatively few creators.
+The direct inflow analysis shows that FPS is by far the main source of Battle Royale creators, with 912 transitions, more than 2.5 times the second-largest contributor, Sandbox at 358. Sports and Single Player / Open World follow, while traditionally competitive genres such as MOBA and MMORPG contribute relatively few creators.
 
-This ranking is intuitive. Battle Royale shares core mechanics with shooters (aiming, weapons, movement), open-world or survival games (looting, map navigation), and sports titles (competitive multiplayer and seasonal dynamics). Creators from these genres therefore possess transferable skills and are likely to appeal to similar audiences.
+This ranking is intuitive. Battle Royale shares *core mechanics* with shooters (aiming, weapons, movement), open-world or survival games (looting, map navigation), and sports titles (competitive multiplayer and seasonal dynamics). Creators from these genres therefore possess transferable skills and are likely to appeal to similar audiences.
 
 The temporal breakdown follows the expected trajectory: limited inflows in 2015–2016, rapid growth in 2017, a pronounced peak in 2018 during the Fortnite boom, and a decline in 2019 as the genre matures (even taking into account the removed 2019 Q4). The composition of inflows remains stable over time, with FPS consistently dominating.
 
-However, absolute inflow counts alone do not resolve the cannibalization question. The large number of FPS-to-BR transitions could indicate substantial diversion of FPS creators, or alternatively reflect a small fraction of a very large FPS creator base. To distinguish between these possibilities, inflows must be interpreted relative to the size of each source genre and examined alongside transition correlations that capture whether BR growth coincided with reduced transitions into other genres.
+However, absolute inflow counts alone *do not resolve the cannibalization question*. The large number of FPS-to-BR transitions could indicate substantial diversion of FPS creators, or alternatively reflect a small fraction of a very large FPS creator base. To distinguish between these possibilities, inflows must be interpreted relative to the size of each source genre and examined alongside transition correlations that capture whether BR growth coincided with reduced transitions into other genres.
 
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Approach 3 : Transition Flow Correlations</h3>
+<h3 id="transition-correlations" style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Third Approach: Transition Flow Correlations</h3>
 Finally, we test whether quarterly transition flows TO Battle Royale correlate with flows TO other genres. A significant negative correlation would suggest competition for incoming creators. Before running the correlation analysis, we verified whether the data satisfied the standard assumptions of Pearson correlation.
 
 <div style="width:100%; height:100vh;">
@@ -115,10 +164,14 @@ MMORPG is the only genre showing a pattern consistent with potential cannibaliza
 
 Several genres grew alongside Battle Royale. Fighting (r = 0.74), Nintendo (r = 0.58), and Sports (r = 0.54) all show significant positive correlations, with increased creator inflows occurring in the same quarters as Battle Royale expansion. Given the absence of shared core mechanics or obvious structural links with Battle Royale, these concurrent increases more likely reflect overall growth in gaming content rather than any direct relationship.
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">(2.2) Did posting BR videos accelerate channel growth ?</h2>
+<h2 id="q2" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  (2.2) Did posting BR videos accelerate channel growth ?
+</h2>
 ## **No answer for now**
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">(2.3) Did BR introduce new video formats (length, frequency) ?</h2>
+<h2 id="q3" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  (2.3) Did BR introduce new video formats (length, frequency) ?
+</h2>
 ## **No answer for now**
 
 <h2 style="color:#003c9e; font-size:2rem; font-weight:600;">Synthesis: Battle Royale Carved Its Own Path</h2>

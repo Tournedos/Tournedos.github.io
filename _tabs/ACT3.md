@@ -3,6 +3,7 @@ layout: page
 icon: fas fa-stream
 order: 4
 title: ACT 3 - Audience Shift
+permalink: /act3/
 ---
 
 <style>
@@ -80,16 +81,34 @@ To what extent did BR attract new audiences, pull viewers away from other genres
 
 Battle Royale was not just a genre, it became a gravitational force. In this act, we study how attention, commenters, and sentiment migrated during the BR explosion.
 
-
 <div class="question-box">
   <div class="question-box-title">Key Questions</div>
   <ul>
-    <li>Did the Battle Royale genre steal audience from other gaming communities?</li>
-    <li>Were BR commenters originally from other genres, or were they new to YouTube gaming?</li>
-    <li>Did BR content trigger different engagement dynamics?</li>
-    <li>Did BR introduce new video formats (length, frequency)?</li>
+    <li>
+      <a href="#audience-steal" style="color:white; text-decoration:none; border-bottom:none;">
+        Did the Battle Royale genre steal audience from other gaming communities?
+      </a>
+    </li>
+    <li>
+      <a href="#commenter-origin" style="color:white; text-decoration:none; border-bottom:none;">
+        Were BR commenters originally from other genres, or were they new to YouTube gaming?
+      </a>
+    </li>
+    <li>
+      <a href="#engagement-dynamics" style="color:white; text-decoration:none; border-bottom:none;">
+        Did BR content trigger different engagement dynamics?
+      </a>
+    </li>
+    <li>
+      <a href="#new-formats" style="color:white; text-decoration:none; border-bottom:none;">
+        Did BR introduce new video formats (length, frequency)?
+      </a>
+    </li>
   </ul>
 </div>
+
+<!-- Corresponding section headers -->
+
 
 <blockquote style="font-style:italic; opacity:0.85;">
   Fun fact: preprocessing the full YouNiverse comments archive literally killed two of our computers.  
@@ -114,7 +133,9 @@ Battle Royale was not just a genre, it became a gravitational force. In this act
   >
 </div>
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">Did Battle Royale Steal Audience From Other Genres?</h2>
+<h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Did BR steal audience from other gaming communities?
+</h2>
 
 To determine whether BR captured viewers from existing communities, we track the movement of comment authors across genres.  
 If BR rapidly accumulated commenters whose first interactions were in other genres (FPS, Sandbox, MOBA, etc.), this would indicate a redistribution of audience attention rather than the arrival of new people.
@@ -182,7 +203,9 @@ These flows allow us to quantify how much BR’s explosion resulted from interna
 
 <!-- 3.2 — MIGRATION OR NEW USERS? -->
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">Did Commenters Migrate to BR, or Were They New to YouTube Gaming?</h2>
+<h2 id="commenter-origin" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Did Commenters Migrate to BR, or Were They New to YouTube Gaming?
+</h2>
 
 *Coming soon: integration of your results.*  
 
@@ -196,7 +219,9 @@ It will serve as a bridge toward engagement dynamics.
 
 <!-- 3.3 — ENGAGEMENT DYNAMICS -->
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">Did Engagement Dynamics Differ for BR Content?</h2>
+<h2 id="engagement-dynamics" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Did Engagement Dynamics Differ for BR Content?
+</h2>
 
 To evaluate whether BR fostered stronger audience engagement, we compute the likes-per-view ratio (LPV).  
 This metric reflects how actively viewers interact with videos: passive viewers only watch, but engaged viewers watch + react.
@@ -220,7 +245,9 @@ Statistical testing confirms the difference: comparing BR to Sandbox (the second
 
 ---
 
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Are Video Formats Responsible for This Difference?</h3>
+<h2 id="new-formats" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Are Video Formats (length, frequency) Responsible for This Difference?
+</h2>
 
 To determine whether BR’s high engagement stems from its content format rather than the genre itself, we examine:
 

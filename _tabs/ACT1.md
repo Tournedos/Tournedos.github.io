@@ -3,6 +3,7 @@ layout: page
 icon: fas fa-stream
 order: 2
 title: ACT 1 - The Eruption  # this is used in sidebar             # custom key Chirpy uses to hide top title
+permalink: /act1/
 ---
 
 <style>
@@ -79,11 +80,25 @@ We address three main questions:
 <div class="question-box">
   <div class="question-box-title">Key Questions</div>
   <ul>
-    <li>How did BR uploads and views grow compared to other major gaming genres?</li>
-    <li>Which Battle Royale games drove this explosion?</li>
-    <li>Did BR expand YouTube gaming overall or primarily reshuffle attention?</li>
+    <li>
+      <a href="#growth-vs-genres" style="color:white; text-decoration:none;border-bottom:none;">
+        How did BR uploads and views grow compared to other major gaming genres?
+      </a>
+    </li>
+    <li>
+      <a href="#br-games-driver" style="color:white; text-decoration:none;border-bottom:none;">
+        Which Battle Royale games drove this explosion?
+      </a>
+    </li>
+    <li>
+      <a href="#expansion-or-reshuffle" style="color:white; text-decoration:none;border-bottom:none;">
+        Did BR expand YouTube gaming overall or primarily reshuffle attention?
+      </a>
+    </li>
   </ul>
 </div>
+
+
 
 
 To keep the analysis readable, we focus on the top 7 gaming genres, which capture the vast majority of uploads and views during the period. Smaller genres are excluded as they do not affect the global dynamics and would only clutter the figures.
@@ -111,8 +126,7 @@ To keep the analysis readable, we focus on the top 7 gaming genres, which captur
 
 
 ---
-
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">
+<h2 id="growth-vs-genres" style="color:#003c9e; font-size:2rem; font-weight:600;">
   Growth of Battle Royale vs other gaming genres
 </h2>
 
@@ -228,9 +242,11 @@ This strongly suggests that BR did not merely coexist with existing genres, but 
   >
 </div>
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Which Battle Royale games led the wave?
+<h2 id="br-games-driver" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Which Battle Royale games led the wave
 </h2>
+
+
 
 The Battle Royale genre is not driven by a single title but by a sequence of releases that shaped its internal dynamics.  
 We focus on four BR games present in the Twitch Top-50 panel: H1Z1, PUBG, Fortnite, and Apex Legends, and align their release dates with genre-level trends.
@@ -295,8 +311,8 @@ Fortnite emerges as the central engine of BR visibility on YouTube.
 
 ---
 
-<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Did Battle Royale grow YouTube gaming or reshuffle it?
+<h2 id="expansion-or-reshuffle" style="color:#003c9e; font-size:2rem; font-weight:600;">
+  Did BR expand YouTube gaming overall or primarily reshuffle attention?
 </h2>
 
 We now shift to a platform-wide perspective, comparing Battle Royale, non-BR gaming, and total gaming activity, normalized to a common 2016 baseline.

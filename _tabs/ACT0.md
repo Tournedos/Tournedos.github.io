@@ -61,55 +61,51 @@ Our goal is to tell a structured, data-driven story about how Battle Royale (BR)
 To do this, we organize the project into five main steps, each with its own guiding questions:
 
 <style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 2rem 0;
-    font-family: Arial, sans-serif;
+  .question-box {
+    background: #0a4fffde;
+    background: var(--qbox-bg, #0a4fffde);
+    color: white;                          
+    padding: 1.2rem 1.6rem;
+    border-radius: 12px;
+    margin: 1.8rem 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
   }
 
-  th {
-    background-color: #003c9e;
-    color: white;
-    padding: 12px;
-    text-align: left;
-    font-size: 1.2rem;
+  .question-box-title {
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.06em;
   }
 
-  td {
-    border: 1px solid #ccc;
-    padding: 14px;
-    font-size: 1rem;
-  }
-
-  tr:nth-child(even) {
-    background-color: #f6f8fc;
+  html[data-theme="dark"] .question-box {
+    --qbox-bg: #003cbd;
+    border-color: rgba(255,255,255,0.15);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
   }
 </style>
 
-<table>
-  <tr>
-    <th>Research Question</th>
-  </tr>
+---
 
-  <tr>
-    <td><strong>ACT 1: THE ERUPTION</strong><br>
-    “How did Battle Royale explode onto YouTube’s gaming landscape, and did the momentum persist?”
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>ACT 2: CREATOR RESPONSE</strong><br>
-    “How did YouTube creators adapt to the BR phenomenon — and did those behaviors stick?”
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>ACT 3: AUDIENCE SHIFTS</strong><br>
-    “Did viewers migrate to BR, and how did community dynamics change?”
-    </td>
-  </tr>
-</table>
+<div class="question-box" style="display:flex; gap:2rem;">
+  <a href="/act1/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 1</div>
+    <div>THE ERUPTION</div>
+    <small>“How did BR explode onto YouTube’s gaming landscape, and did the momentum persist?”</small>
+  </a>
+  <a href="/act2/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 2</div>
+    <div>CREATOR RESPONSE</div>
+    <small>“How did YouTube creators adapt to the BR phenomenon, and did those behaviors stick?”</small>
+  </a>
+  <a href="/act3/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 3</div>
+    <div>AUDIENCE SHIFTS</div>
+    <small>“Did viewers migrate to BR, and how did community dynamics change?”</small>
+  </a>
+</div>
 
 <figure>
   <img src="/assets/img/img_0/Scheme1.png" alt="Scheme" width="600px">
