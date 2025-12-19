@@ -10,15 +10,15 @@ title: ACT 1 - The Eruption  # this is used in sidebar             # custom key 
   max-width: 1100px; 
   margin: 2rem auto;
   padding: 1.2rem 1.4rem;
-  border-radius: 1rem;
-  border: 1px solid rgba(0,0,0,0.15);
+  /*border-radius: 1rem;*/
+  /*border: 1px solid rgba(0,0,0,0.15);*/
   background: #ffffff;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  /*box-shadow: 0 4px 14px rgba(0,0,0,0.08);*/
 }
 
 .plot-card iframe {
   width: 100%;
-  height: 480px;       /* THIS is the key line */
+  height:75vh;       /* THIS is the key line */
 }
 
 html.dark .plot-card {

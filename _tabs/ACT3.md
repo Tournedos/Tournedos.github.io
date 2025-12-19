@@ -21,14 +21,14 @@ title: ACT 3 - Audience Shift
   max-width: 1100px; 
   margin: 2rem auto;
   padding: 1.2rem 1.4rem;
-  border-radius: 1rem;
-  border: 1px solid rgba(0,0,0,0.15);
+  /*border-radius: 1rem;
+  border: 1px solid rgba(0,0,0,0.15);*/
   background: #ffffff;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  /*box-shadow: 0 4px 14px rgba(0,0,0,0.08);*/
 }
 .plot-card iframe {
   width: 100%;
-  height: 480px;
+  height: 75vh;
 }
 
 html.dark .plot-card {
@@ -99,6 +99,21 @@ Battle Royale was not just a genre, it became a gravitational force. In this act
 
 <!-- 3.1 — AUDIENCE STEALING EFFECT -->
 
+<div style="display:flex; justify-content:center; margin:2rem 0;">
+  <img 
+    src="/assets/img/img_3/battle_comments.png" 
+    alt="Image"
+    style="
+      width:90%;
+      max-width:480px;
+      height:auto;
+      border-radius:18px;
+      display:block;
+      margin:auto;
+    "
+  >
+</div>
+
 <h2 style="color:#003c9e; font-size:2rem; font-weight:600;">Did Battle Royale Steal Audience From Other Genres?</h2>
 
 To determine whether BR captured viewers from existing communities, we track the movement of comment authors across genres.  
@@ -125,6 +140,21 @@ If instead BR’s rise was mainly fueled by migration from other genres, the fir
 
 
 ---
+
+<div style="display:flex; justify-content:center; margin:2rem 0;">
+  <img 
+    src="/assets/img/img_3/fortnite_detective.png" 
+    alt="Image"
+    style="
+      width:90%;
+      max-width:480px;
+      height:auto;
+      border-radius:18px;
+      display:block;
+      margin:auto;
+    "
+  >
+</div>
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Following Users Across Genres</h3>
 
