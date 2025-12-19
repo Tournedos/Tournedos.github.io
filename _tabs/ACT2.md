@@ -9,27 +9,19 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- ====== IMAGES SLIDER ====== -->
-<div class="carousel-wrapper">
-  <div class="swiper imagesSwiper">
-    <div class="swiper-wrapper">
+<h1 style="color:#003c9e; font-size:3rem; font-weight:900; margin:0;">
+  Creators response to the Battle royale's turnover
+</h1>
 
-      <div class="swiper-slide">
-        <img src="/assets/img/img_2/slider1.jpg" alt="Fortnite">
-      </div>
+<figure style="text-align: center;">
+  <img src="/assets/img/img_2/apex_legend.jpg" width="600px" style="border-radius:24px; display: block; margin: 0 auto;">
+  <figcaption style="color: #666666; font-style: italic; margin-top: 8px;">
+    Promotional artwork from Apex Legends, one of the flagship titles of the Battle Royale genre.
+  </figcaption>
+</figure>
 
-      <div class="swiper-slide">
-        <img src="/assets/img/img_2/slider2.jpg" alt="PUBG">
-      </div>
-
-      <div class="swiper-slide">
-        <img src="/assets/img/img_2/slider3.jpg" alt="Apex Legends">
-      </div>
-
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
-</div>
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">The Turning point</h3>
+The year 2017 emerges as a clear turning point, coinciding with the rapid expansion of the Battle Royale genre following the release of Fortnite. Prior to 2017, creators predominantly transition toward the FPS genre. From 2017 onward, Battle Royale captures the majority of transitions that previously targeted FPS, suggesting a structural shift in genre dynamics. This observation motivates an explicit investigation into whether Battle Royale effectively absorbed transition flows from other genres.
 
 <style>
   .question-box {
@@ -68,9 +60,6 @@ title: "ACT 2 — Creators Response"   # this is used in sidebar             # c
     <li>Did BR introduce new video formats (length, frequency) ?</li>
   </ul>
 </div>
-
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">The Turning point</h3>
-The year 2017 emerges as a clear turning point, coinciding with the rapid expansion of the Battle Royale genre following the release of Fortnite. Prior to 2017, creators predominantly transition toward the FPS genre. From 2017 onward, Battle Royale captures the majority of transitions that previously targeted FPS, suggesting a structural shift in genre dynamics. This observation motivates an explicit investigation into whether Battle Royale effectively absorbed transition flows from other genres.
 
 <h2 style="color:#003c9e; font-size:2rem; font-weight:600;">(2.1) Did existing creators pivot to BR content ?</h2>
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Approach 1 : Proportions Of Channels in each Genre Phase Over Time</h3>
