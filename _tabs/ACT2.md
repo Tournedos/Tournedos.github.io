@@ -15,7 +15,7 @@ permalink: /act2/
 </h1>
 
 <figure style="text-align: center;">
-  <img src="/assets/img/img_2/apex_legend.jpg" width="600px" style="border-radius:24px; display: block; margin: 0 auto;">
+  <img src="/assets/img/img_2/apex_legend.jpg" width="600px" alt="Fortnite Season 1 Wallpaper"  style="border-radius:24px; display: block; margin: 0 auto;">
   <figcaption style="color: #666666; font-style: italic; margin-top: 8px;">
     Promotional artwork from Apex Legends, one of the flagship titles of the Battle Royale genre.
   </figcaption>
