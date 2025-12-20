@@ -70,7 +70,7 @@ Our investigation proceeds in three parts: (1) phase transition dynamics, tracki
       </a>
     </li>
     <li>
-      <a href="#q2" style="color:white; text-decoration:noneborder-bottom:none;;">
+      <a href="#q2" style="color:white; text-decoration:none;border-bottom:none;;">
         Did posting BR videos accelerate channel growth ?
       </a>
     </li>
@@ -82,7 +82,7 @@ Our investigation proceeds in three parts: (1) phase transition dynamics, tracki
   </ul>
 </div>
 
-<h2 id="q1" style="color:#003c9e; font-size:2rem; font-weight:600;">(2.1) Did existing creators pivot to BR content ?</h2>
+<!-- <h2 id="q1" style="color:#003c9e; font-size:2rem; font-weight:600;">(2.1) Did existing creators pivot to BR content ?</h2>
 
 <table style="width:100%; border-collapse: collapse; text-align: left; font-size:0.75rem;">
   <thead>
@@ -115,9 +115,9 @@ Our investigation proceeds in three parts: (1) phase transition dynamics, tracki
       <td style="padding:6px;">Negative correlation suggests competition for incoming creators</td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
-<h2 id="q2" style="color:#003c9e; font-size:2rem; font-weight:600;">
+<h2 id="q1" style="color:#003c9e; font-size:2rem; font-weight:600;">
   (1) PHASE TRANSITION DYNAMICS ?
 </h2>
 
@@ -226,7 +226,7 @@ Overall, we find no evidence that Battle Royale cannibalised creator inflows fro
 Combining these perspectives clarifies how BR reshaped the gaming content landscape. Market share analysis shows BR skyrocketing to ~25 % share by 2019, mechanically compressing other genres’ relative presence. Direct inflows reveal that FPS supplied the bulk of BR creators (912), followed by Sandbox and Sports. Yet correlation tests demonstrate that BR’s growth did not suppress inflows into these genres. Instead, BR attracted new creators and drew from existing pools without diminishing their replenishment, producing an expanded ecosystem where BR claimed a large slice but did not cannibalise others.
 
 
-<h2 id="q2" style="color:#003c9e; font-size:2rem; font-weight:600;">
+<h2 id="q3" style="color:#003c9e; font-size:2rem; font-weight:600;">
   (3) — CHANNEL-LEVEL PROFILING ?
 </h2>
 
@@ -299,7 +299,7 @@ Finally, we examine how many channels tried each genre at least once. By calcula
 The adoption chart reveals two key insights. First, FPS remains the most broadly adopted genre: 20 % of all channels enter an FPS phase at least once. Second, Battle Royale follows closely at 16.1 %, a remarkably high adoption rate given its later emergence. This shows that BR was not a niche specialisation but a genre that a large fraction of creators actively experimented with during its rise. Sandbox (13.2 %) and Single Player/Open World (11.1 %) show moderate adoption, while MOBA, Sports, MMORPG and Strategy remain below 6 %. Together with the shorter phase durations, these results reinforce the view of BR as a high‑attraction, low‑commitment genre: many creators tried it, but fewer sustained long‑term engagement compared to more traditional genres.
 
 
-<h2 id="q2" style="color:#003c9e; font-size:2rem; font-weight:600;">
+<h2 style="color:#003c9e; font-size:2rem; font-weight:600;">
   (4) Creator Response: General Synthesis
 </h2>
 
