@@ -99,7 +99,7 @@ html[data-theme="dark"] .question-box {
 
 .slide iframe {
   width: 100%;
-  height: 480px;
+  height: 75vh;
   border: none;
 }
 
@@ -134,7 +134,8 @@ html.dark .slider-dot:hover {
 
 <div style="display: flex; align-items: center; gap: 2rem;">
   <h1 style="color:#003c9e; font-size:3rem; font-weight:700;">
-    Audience Shifts: Did Viewers Migrate to Battle Royale, and How Did Communities Change?
+    Audience Shifts: 
+    Did Viewers Migrate to Battle Royale, and How Did Communities Change?
   </h1>
   <img src="/assets/img/img_3/comment.png" alt="Scheme" style="width:850px; height:auto; border-radius:18px;">
 </div>
@@ -287,6 +288,20 @@ Users entering through FPS, however, showed a weaker retention pattern, spreadin
 
 Overall, both **Sandbox and Battle Royale** exhibit strong community “stickiness,” while Battle Royale stands out with an especially high level of loyalty among its newcomers.
 
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Let's see from where people who commented on Battle Royale videos come from</h3>
+
+<div class="plot-card">
+  <iframe
+    src="/assets/plots/plots_3/sankey.html"
+    loading="lazy"
+    title="Engagement by Genre"
+  ></iframe>
+</div>
+
+This Sankey diagram highlights the entry points into the YouTube gaming ecosystem for authors who have commented at least once on Battle Royale content.  
+It shows that many of these users did **not** originally discover gaming content through the Battle Royale genre. Instead, most of them initially engaged with other major categories such as Sandbox (451K), FPS, Single Player/Open World, and Sports.
+
+More broadly, the diagram provides an overview of the gaming genres that served as a first touchpoint for users who later interacted with Battle Royale videos. It helps contextualize how the Battle Royale audience is partly composed of viewers migrating from other dominant genres within the YouTube gaming landscape.
 
 
 <!-- 3.2 — MIGRATION OR NEW USERS? -->
@@ -347,7 +362,7 @@ If BR videos are significantly shorter, longer, or more frequent, these structur
 
 <div class="plot-card">
   <iframe
-    src="/assets/plots/plots_3/plot_3_4.html"
+    src="/assets/plots/plots_3/plot_3_x.html"
     loading="lazy"
     title="Video Duration Comparison Across Genres"
   ></iframe>
