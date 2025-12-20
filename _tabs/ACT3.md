@@ -22,14 +22,11 @@ permalink: /act3/
   max-width: 1100px; 
   margin: 2rem auto;
   padding: 1.2rem 1.4rem;
-  /*border-radius: 1rem;
-  border: 1px solid rgba(0,0,0,0.15);*/
   background: #ffffff;
-  /*box-shadow: 0 4px 14px rgba(0,0,0,0.08);*/
 }
 .plot-card iframe {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
 }
 
 html.dark .plot-card {
@@ -37,341 +34,366 @@ html.dark .plot-card {
   background: linear-gradient(135deg, #050814, #0c1024);
   box-shadow: 0 14px 30px rgba(0,0,0,0.4);
 }
-
-.question-box {
-  background: #0a4fffde;
-  background: var(--qbox-bg, #0a4fffde);
-  color: white;                          
-  padding: 1.2rem 1.6rem;
-  border-radius: 12px;
-  margin: 1.8rem 0;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
-}
-
-.question-box-title {
-  font-weight: 800;
-  font-size: 1.15rem;
-  text-transform: uppercase;
-  margin-bottom: 0.6rem;
-  letter-spacing: 0.06em;
-}
-
-html[data-theme="dark"] .question-box {
-  --qbox-bg: #003cbd;
-  border-color: rgba(255,255,255,0.15);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-}
 </style>
 
 <style>
-/* SLIDER CSS */
-/* horizontal scrolling container */
+  .question-box {
+    background: #0a4fffde;
+    background: var(--qbox-bg, #0a4fffde);
+    color: white;                          
+    padding: 1.2rem 1.6rem;
+    border-radius: 12px;
+    margin: 1.8rem 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  }
+
+  .question-box-title {
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.06em;
+  }
+
+  html[data-theme="dark"] .question-box {
+    --qbox-bg: #003cbd;
+    border-color: rgba(255,255,255,0.15);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+</style>
+
+<style>
 .slider {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
   width: 100%;
   max-width: 1100px;
   margin: 2rem auto;
-  /*border-radius: 1rem;
-  border: 1px solid rgba(0,0,0,0.15);
-  background: #ffffff;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);*/
 }
+.slider::-webkit-scrollbar { display: none; }
+.slide { min-width: 100%; scroll-snap-align: start; }
+.slide iframe { width: 100%; height: 75vh; border: none; }
 
-/* remove scrollbar */
-.slider::-webkit-scrollbar {
-  display: none;
-}
-.slider {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-/* slides */
-.slide {
-  min-width: 100%;
-  scroll-snap-align: start;
-}
-
-.slide iframe {
-  width: 100%;
-  height: 75vh;
-  border: none;
-}
-
-/* Dots / pagination */
 .slider-dots {
   display: flex;
   justify-content: center;
   margin-top: 0.8rem;
   gap: 10px;
 }
-
 .slider-dot {
-  width: 12px;
-  height: 12px;
+  width: 12px; height: 12px;
   border-radius: 50%;
   background: #bfc7d6;
-  display: inline-block;
-}
-
-.slider-dot:hover {
-  background: #003c9e;
-}
-
-html.dark .slider-dot {
-  background: #444d66;
-}
-html.dark .slider-dot:hover {
-  background: #6b8bff;
 }
 </style>
 
-
+<!-- HEADER + IMAGE -->
 <div style="display: flex; align-items: center; gap: 2rem;">
   <h1 style="color:#003c9e; font-size:3rem; font-weight:700;">
-    Audience Shifts: 
+    Audience Shifts:  
     Did Viewers Migrate to Battle Royale, and How Did Communities Change?
   </h1>
-  <img src="/assets/img/img_3/comment.png" alt="Scheme" style="width:850px; height:auto; border-radius:18px;">
+  <img src="/assets/img/img_3/comment.png"
+       alt="Audience comments illustration"
+       style="width:850px; height:auto; border-radius:18px;">
 </div>
 
-
-Act 1 showed how Battle Royale (BR) reshaped the ecosystem of YouTube gaming.  
-Act 2 uncovered how creators adapted to this new environment.  
-
-Now comes the final layer of the puzzle: the viewers themselves.  
-To what extent did BR attract new audiences, pull viewers away from other genres, or reshape engagement and community dynamics?
-
-Battle Royale was not just a genre, it became a gravitational force. In this act, we study how attention, commenters, and sentiment migrated during the BR explosion.
+<p>
+After analyzing how Battle Royale reshaped the YouTube gaming ecosystem in Acts 1 and 2,
+we now focus on the viewers themselves.
+The objective is to determine whether Battle Royale attracted a new population of active commenters,
+or whether it pulled attention away from pre-existing gaming communities.
+</p>
 
 <div class="question-box">
   <div class="question-box-title">Key Questions</div>
   <ul>
     <li>
       <a href="#audience-steal" style="color:white; text-decoration:none; border-bottom:none;">
-        Did the Battle Royale genre steal audience from other gaming communities?
+        Did the Battle Royale genre attract new viewers, or did it steal audience from existing gaming communities?
       </a>
     </li>
     <li>
       <a href="#commenter-origin" style="color:white; text-decoration:none; border-bottom:none;">
-        Were BR commenters originally from other genres, or were they new to YouTube gaming?
+        Were Battle Royale commenters already active in other genres, or did they enter YouTube gaming through BR?
       </a>
     </li>
     <li>
       <a href="#engagement-dynamics" style="color:white; text-decoration:none; border-bottom:none;">
-        Did BR content trigger different engagement dynamics?
-      </a>
-    </li>
-    <li>
-      <a href="#new-formats" style="color:white; text-decoration:none; border-bottom:none;">
-        Did BR introduce new video formats (length, frequency)?
+        Did Battle Royale content generate different engagement dynamics compared to other genres?
       </a>
     </li>
   </ul>
 </div>
 
-<!-- Corresponding section headers -->
-
-
 <blockquote style="font-style:italic; opacity:0.85;">
-  Fun fact: preprocessing the full YouNiverse comments archive literally killed two of our computers.  
-  Battle Royale wasn’t the only thing causing explosions in 2017.
+Preprocessing the full YouNiverse comments archive (77GB) pushed our machines to their limits.
+Battle Royale wasn’t the only thing exploding in 2017.
 </blockquote>
 
-
-<!-- 3.1 — AUDIENCE STEALING EFFECT -->
-
-<div style="display:flex; justify-content:center; margin:2rem 0;">
-  <img 
-    src="/assets/img/img_3/battle_comments.png" 
-    alt="Image"
-    style="
-      width:90%;
-      max-width:480px;
-      height:auto;
-      border-radius:18px;
-      display:block;
-      margin:auto;
-    "
-  >
-</div>
-
+<!-- ================================================= -->
+<!-- 3.1 -->
 <h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Did BR steal audience from other gaming communities?
+3.1 – Were Battle Royale commenters new to YouTube gaming?
 </h2>
 
-To determine whether BR captured viewers from existing communities, we track the movement of comment authors across genres.  
-If BR rapidly accumulated commenters whose first interactions were in other genres (FPS, Sandbox, MOBA, etc.), this would indicate a redistribution of audience attention rather than the arrival of new people. A first step is to determine whether newcomers to YouTube gaming disproportionately entered through BR.  
-To do this, we identify the genre of each user's first-ever comment, and compare the distribution across genres.
-Because comment timestamps are unavailable, we approximate comment timing by the upload date of the commented video.  This is a reasonable assumption: most comments are written shortly after publication, especially by active users.  While imperfect for low-activity accounts, the approximation holds at the large scale required for this analysis.
+<p>
+To address this question, we analyze the genre associated with each author’s
+<strong>first-ever gaming comment</strong>.
+Because comment timestamps are unavailable, we approximate timing using the upload date
+of the commented video.
+This approximation is reliable for active users, who typically comment shortly after publication.
+</p>
 
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">3.1.1 - Was the emergence of Battle Royal accompagnied by the emergence of a group of active users?</h3>
 
-<!-- FIGURE: Entry points into the ecosystem -->
-<div class="plot-card">
-  <iframe
-    src="/assets/plots/plots_3/plot_3_1.html"
-    loading="lazy"
-    title="Entry Points of New Commenters by Genre"
-  ></iframe>
-</div>
+<p>
+By identifying entry genres, we assess whether the emergence of Battle Royale coincided
+with the arrival of a new population of engaged commenters.
+</p>
 
-
-The Genre Entry Points plot shows through which genre commenters first entered the YouTube gaming ecosystem. This helps us understand whether Battle Royale created a new community or pushed viewers to become active participants rather than silent watchers.
-As expected, **Sandbox is the main entry genre**, largely driven by the long-standing popularity of Minecraft (since 2009).
-Even so, Battle Royale stands in second place, with 3.3 million users posting their first-ever comment on a BR video.
-This indicates that BR did not only attract viewers from existing genres—it also brought a significant number of new commenters into YouTube gaming.
-
----
-
-<div style="display:flex; justify-content:center; margin:2rem 0;">
-  <img 
-    src="/assets/img/img_3/fortnite_detective.png" 
-    alt="Image"
-    style="
-      width:90%;
-      max-width:480px;
-      height:auto;
-      border-radius:18px;
-      display:block;
-      margin:auto;
-    "
-  >
-</div>
-
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Following Users Across Genres</h3>
-
-
-Beyond identifying entry points, we want to know whether BR had an addictive effect:  
-Did users who commented a BR video first keep consuming BR content afterwards?
-
-Conversely, did users who started in FPS or Sandbox stay loyal to their original genre, or did they gradually shift toward BR?
-
-Tracking users across time reveals whether BR functioned as a sticky community or merely a temporary curiosity.
-
-
-<!-- FIGURE: Migration flows -->
+<!-- FIG 3.1.1 – Genre entry points -->
 <div class="slider">
-
-  <div id="plot1" class="slide">
-    <iframe src="/assets/plots/plots_3/plot_3_2_1.html"></iframe>
-  </div>
-  <div id="plot2" class="slide">
-    <iframe src="/assets/plots/plots_3/plot_3_2_2.html"></iframe>
-  </div>
-  <div id="plot3" class="slide">
-    <iframe src="/assets/plots/plots_3/plot_3_2_3.html"></iframe>
-  </div>
-
+  <div id="plot1" class="slide"><iframe src="/assets/plots/plots_3/plot-3-1-2.html"></iframe></div>
+  <div id="plot2" class="slide"><iframe src="/assets/plots/plots_3/plot-3-1-1.html"></iframe></div>
+  <div id="plot3" class="slide"><iframe src="/assets/plots/plots_3/plot-3-1-3.html"></iframe></div>
 </div>
 
 <div class="slider-dots">
-  <a class="slider-dot" href="#plot1"></a>
-  <a class="slider-dot" href="#plot2"></a>
-  <a class="slider-dot" href="#plot3"></a>
+  <a href="#plot1" class="slider-dot"></a>
+  <a href="#plot2" class="slider-dot"></a>
+  <a href="#plot3" class="slider-dot"></a>
 </div>
 
+<p>
+Sandbox remains the dominant entry point into YouTube gaming,
+largely due to the long-term popularity of Minecraft.
+However, Battle Royale consistently ranks among the top entry genres.
+Millions of users wrote their first gaming comment on a Battle Royale video.
+</p>
 
-These flows allow us to quantify how much BR’s explosion resulted from internal migration versus external newcomers, a crucial distinction to understand the cultural impact of the genre.
+<p>
+This indicates that Battle Royale did not merely redistribute existing audiences,
+but actively contributed to the emergence of a new population of active commenters.
+</p>
 
-By focusing on the three main entry genres (Sandbox, Battle Royale, FPS), we can observe how users shifted across content types after their first comment.
-
-Users who entered through Sandbox tended to remain within that genre, with only a small portion moving toward Battle Royale over time—consistent with the chronological rise of BR content.
-
-Those who entered through Battle Royale displayed an even stronger retention effect, continuing to comment primarily on BR videos while showing secondary interest in Sandbox. This suggests the emergence of a particularly loyal BR community.
-
-Users entering through FPS, however, showed a weaker retention pattern, spreading more widely across other genres.
-
-Overall, both **Sandbox and Battle Royale** exhibit strong community “stickiness,” while Battle Royale stands out with an especially high level of loyalty among its newcomers.
-
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Let's see from where people who commented on Battle Royale videos come from</h3>
-
-<div class="plot-card">
-  <iframe
-    src="/assets/plots/plots_3/sankey.html"
-    loading="lazy"
-    title="Engagement by Genre"
-  ></iframe>
+<!-- IMAGE DE TRANSITION -->
+<div style="display:flex; justify-content:center; margin:2rem 0;">
+  <img src="/assets/img/img_3/battle_comments.png"
+       alt="Battle Royale investigation illustration"
+       style="width:90%; max-width:480px; border-radius:18px;">
 </div>
 
-This Sankey diagram highlights the entry points into the YouTube gaming ecosystem for authors who have commented at least once on Battle Royale content.  
-It shows that many of these users did **not** originally discover gaming content through the Battle Royale genre. Instead, most of them initially engaged with other major categories such as Sandbox (451K), FPS, Single Player/Open World, and Sports.
+<!-- ================================================= -->
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
+3.1.2 – Did Battle Royale make commenters stick to the genre?
+</h3>
 
-More broadly, the diagram provides an overview of the gaming genres that served as a first touchpoint for users who later interacted with Battle Royale videos. It helps contextualize how the Battle Royale audience is partly composed of viewers migrating from other dominant genres within the YouTube gaming landscape.
+<p>
+We now examine whether commenters remained loyal to the genre of their first comment,
+or whether they diversified their interests over time.
+This allows us to evaluate the “hook” effect of Battle Royale compared to other genres.
+</p>
 
+<!-- FIG 11 / 12 / 13 – Retention matrices -->
+<div class="slider">
+  <div id="plot4" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-1.html"></iframe></div>
+  <div id="plot5" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-2.html"></iframe></div>
+  <div id="plot6" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-3.html"></iframe></div>
+</div>
 
-<!-- 3.2 — MIGRATION OR NEW USERS? -->
+<div class="slider-dots">
+  <a href="#plot4" class="slider-dot"></a>
+  <a href="#plot5" class="slider-dot"></a>
+  <a href="#plot6" class="slider-dot"></a>
+</div>
 
+<p>
+By focusing on the three main entry genres—Sandbox, Battle Royale, and FPS—we observe clear differences in how commenters’ interests evolve over time. Authors who entered through Sandbox mostly remained within that genre, although a noticeable fraction later engaged with Battle Royale content. Battle Royale stands out as the most retentive genre: users who entered through BR were the most likely to continue interacting primarily with BR videos, suggesting the formation of a particularly loyal community. In contrast, FPS shows weaker retention, with many commenters gradually shifting their activity toward Battle Royale. Overall, these patterns indicate that Battle Royale not only retained its own audience more effectively than other genres, but also attracted users from FPS, pointing to a broader shift of community interest toward Battle Royale content. 
+</p>
+
+<div class="slider">
+  <div id="plot7" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-11.html"></iframe></div>
+  <div id="plot8" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-22.html"></iframe></div>
+  <div id="plot9" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-33.html"></iframe></div>
+</div>
+
+<div class="slider-dots">
+  <a href="#plot7" class="slider-dot"></a>
+  <a href="#plot8" class="slider-dot"></a>
+  <a href="#plot9" class="slider-dot"></a>
+</div>
+
+<p>
+When focusing on authors with a higher level of activity (those who commented between 10 and 20 times), we observe patterns similar to the previous group but more pronounced. Sandbox commenters remain largely within their original genre, yet an increasing share of their activity shifts toward Battle Royale. FPS shows an even stronger change: retention within the genre weakens further, while migration toward Battle Royale becomes more substantial. Battle Royale itself continues to display strong loyalty, with most commenters remaining engaged with BR content. Overall, these results reinforce the idea that as user activity increases, the shift of interest toward Battle Royale becomes clearer. This trend motivates us to examine the most active authors to confirm whether this pattern continues.
+</p>
+
+<div class="slider">
+  <div id="plot10" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-111.html"></iframe></div>
+  <div id="plot11" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-222.html"></iframe></div>
+  <div id="plot12" class="slide"><iframe src="/assets/plots/plots_3/plot-3-2-333.html"></iframe></div>
+</div>
+
+<div class="slider-dots">
+  <a href="#plot10" class="slider-dot"></a>
+  <a href="#plot11" class="slider-dot"></a>
+  <a href="#plot12" class="slider-dot"></a>
+</div>
+
+<p>
+For the most active authors, the same trends become even more pronounced. Sandbox pioneers show a gradual decline in loyalty to their original genre, with a growing share of their activity shifting toward Battle Royale. The effect is even stronger for FPS pioneers: retention within FPS weakens further, and a large fraction of their subsequent engagement moves to other genres, most notably Battle Royale. This confirms a clear community shift away from FPS content among highly active users, with Battle Royale emerging as the primary destination for this redirected attention.
+</p>
+
+<p>
+Battle Royale exhibits the strongest retention: most commenters who enter through BR
+continue to engage primarily with BR content.
+Sandbox also shows strong loyalty, while FPS displays weaker retention.
+</p>
+
+<p>
+A substantial fraction of FPS-origin commenters progressively migrate toward Battle Royale,
+indicating a shift of interest between these two genres.
+This effect becomes stronger as user activity increases.
+</p>
+
+<div style="display:flex; justify-content:center; margin:2rem 0;">
+  <img src="/assets/img/img_3/fortnite_detective.png"
+       alt="Battle Royale investigation illustration"
+       style="width:90%; max-width:480px; border-radius:18px;">
+</div>
+
+<!-- ================================================= -->
+<!-- 3.2 -->
 <h2 id="commenter-origin" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Did Commenters Migrate to BR, or Were They New to YouTube Gaming?
+3.2 – From which communities did Battle Royale commenters migrate?
 </h2>
 
-*Coming soon: integration of your results.*  
+<p>
+To isolate migration effects, we focus on users who commented on Battle Royale content
+but did <strong>not</strong> enter the YouTube gaming ecosystem through this genre.
+This allows us to identify from which pre-existing communities Battle Royale drew its audience.
+</p>
 
-This section will contrast:
-- retained users from other genres
-- new users entering through BR
-- cross-genre drifters whose commenting history shifted
+<!-- FIG 14 – Sankey diagram -->
+<div class="slider">
+  <div id="plot13" class="slide"><iframe src="/assets/plots/plots_3/plot-3-3-1.html"></iframe></div>
+  <div id="plot14" class="slide"><iframe src="/assets/plots/plots_3/plot-3-3-2.html"></iframe></div>
+  <div id="plot15" class="slide"><iframe src="/assets/plots/plots_3/plot-3-3-3.html"></iframe></div>
+</div>
 
-It will serve as a bridge toward engagement dynamics.
+<div class="slider-dots">
+  <a href="#plot13" class="slider-dot"></a>
+  <a href="#plot14" class="slider-dot"></a>
+  <a href="#plot15" class="slider-dot"></a>
+</div>
+
+<p>
+The Sankey diagrams illustrate how YouTube gaming commenters migrated toward Battle Royale content. Each flow represents users who initially engaged with one genre before later commenting on at least one Battle Royale video. The diagrams reveal that most Battle Royale commenters did not emerge in isolation, but rather transitioned from other established gaming communities.
+</p>
+
+<p>
+The largest sources of migration come from Sandbox and FPS, confirming patterns observed earlier in the analysis. These genres act as the main reservoirs of users who later engage with Battle Royale. At the same time, the presence of smaller flows from a wide range of other genres—such as Single Player / Open World, Sports, MOBA, and Nintendo—shows that Battle Royale attracted users with diverse gaming interests. This highlights Battle Royale’s role not only as a dominant genre, but also as a cross-genre hub capable of unifying audiences from across the YouTube gaming ecosystem.
+</p>
 
 
-<!-- 3.3 — ENGAGEMENT DYNAMICS -->
+<p>
+Most Battle Royale commenters originally engaged with
+Sandbox, FPS, Single Player / Open World, and Sports content.
+This highlights Battle Royale’s ability to attract users from a broad range of communities.
+</p>
 
+<!-- ================================================= -->
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
+3.2.2 – How did this migration evolve over time?
+</h3>
+
+<p>
+We now analyze how this redistribution of attention unfolded over time.
+By tracking FPS and Sandbox pioneers, we measure how the share of their comments
+devoted to Battle Royale evolved during the BR boom.
+</p>
+
+<!-- FIG 15 / 16 – Migration over time -->
+<div class="slider">
+  <div id="plot16" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-1.html"></iframe></div>
+  <div id="plot17" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-2.html"></iframe></div>
+</div>
+
+<div class="slider-dots">
+  <a href="#plot16" class="slider-dot"></a>
+  <a href="#plot17" class="slider-dot"></a>
+</div>
+
+<p>
+Once again, FPS appears to be strongly impacted by the emergence of Battle Royale. As Battle Royale content gains momentum, a growing share of comments originally directed at FPS videos progressively shifts toward BR, following the same temporal pattern identified in Act 1. This shift peaks during the core years of the Battle Royale boom and then slightly recedes, indicating that part of the FPS audience redirected its attention rather than fully abandoning the genre.
+</p>
+
+<p>
+The pattern differs somewhat for Sandbox content. Although commenters also begin to engage more with Battle Royale during the same period, the shift is weaker and stabilizes over time. This suggests a more moderate migration compared to FPS, but one that persists in the long run, as users do not fully return to Sandbox after engaging with Battle Royale. We now examine whether these trends remain consistent when focusing on a more active group of authors.
+</p>
+
+<div class="slider">
+  <div id="plot18" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-3.html"></iframe></div>
+  <div id="plot19" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-4.html"></iframe></div>
+</div>
+
+<div class="slider-dots">
+  <a href="#plot18" class="slider-dot"></a>
+  <a href="#plot19" class="slider-dot"></a>
+</div>
+
+<p>
+For the second group of authors, the overall temporal pattern remains similar, with a clear rise in Battle Royale engagement during the emergence of the genre and a peak during its core expansion phase. However, the shift toward Battle Royale is noticeably stronger than for less active users. This supports the idea that authors with higher activity levels are more likely to experience and reflect major genre transitions over time, particularly the rise of Battle Royale.
+</p>
+
+<p>
+A comparable pattern is observed for Sandbox pioneers, where the redirection of comments toward Battle Royale is more pronounced than in the previous group but stabilizes once the genre becomes established. To further test whether user activity consistently amplifies this effect, we now examine the most active group of authors.
+</p>
+
+<div class="slider">
+  <div id="plot20" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-5.html"></iframe></div>
+  <div id="plot21" class="slide"><iframe src="/assets/plots/plots_3/plot-3-4-6.html"></iframe></div>
+</div>
+
+<div class="slider-dots">
+  <a href="#plot20" class="slider-dot"></a>
+  <a href="#plot21" class="slider-dot"></a>
+</div>
+
+<p>
+The last group of authors confirms the hypothesis formulated earlier: the more active the users, the stronger the shift toward Battle Royale. Among these highly engaged commenters, Battle Royale captures a substantial share of attention, particularly from FPS pioneers. This supports the idea that long-term, active users are more likely to span multiple phases of the gaming ecosystem, encompassing both the rise of FPS and the later emergence of Battle Royale.
+</p>
+
+<p>
+A similar dynamic is observed for Sandbox content. Although the redirection of attention toward Battle Royale is stronger than for less active users, it stabilizes once the genre becomes established. Overall, this temporal analysis shows that Battle Royale did not simply attract new users, but actively redirected engagement from pre-existing communities, with this effect being most pronounced among the most active commenters.
+</p>
+
+<!-- ================================================= -->
+<!-- 3.3 -->
 <h2 id="engagement-dynamics" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Did Engagement Dynamics Differ for BR Content?
+3.3 – Did engagement dynamics differ for Battle Royale content?
 </h2>
 
-To evaluate whether BR fostered stronger audience engagement, we compute the likes-per-view ratio (LPV).  
-This metric reflects how actively viewers interact with videos: passive viewers only watch, but engaged viewers watch + react.
+<p>
+To quantify engagement intensity, we analyze the likes-per-view ratio (LPV),
+which reflects how often viewers actively react to content rather than passively consuming it.
+</p>
 
-If BR displays higher LPV values, it suggests that BR content cultivated a particularly enthusiastic and reactive audience.
-
-
+<!-- FIG 17 – Engagement comparison -->
 <div class="plot-card">
-  <iframe
-    src="/assets/plots/plots_3/plot_3_3.html"
-    loading="lazy"
-    title="Engagement by Genre"
-  ></iframe>
+  <iframe src="/assets/plots/plots_3/plot-3-5.html"></iframe>
 </div>
 
+<p>
+Battle Royale consistently exhibits the highest LPV during 2017–2019.
+Statistical tests confirm that this difference is significant
+when compared to Sandbox, the second most engaging genre.
+</p>
 
-Battle Royale clearly dominates the LPV distribution during 2017–2019.  
-Viewers weren’t just watching—they were liking, consistently and intensely.  
-Statistical testing confirms the difference: comparing BR to Sandbox (the second most engaging genre) through independent t-tests for 2018 and 2019 shows a significant gap in median engagement.
 
-
----
-
-<h2 id="new-formats" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  Are Video Formats (length, frequency) Responsible for This Difference?
+<h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
+3.4 – Conclusion
 </h2>
-
-To determine whether BR’s high engagement stems from its content format rather than the genre itself, we examine:
-
-- video duration
-- upload frequency
-
-If BR videos are significantly shorter, longer, or more frequent, these structural differences could explain engagement patterns.
-
-
-<div class="plot-card">
-  <iframe
-    src="/assets/plots/plots_3/plot_3_x.html"
-    loading="lazy"
-    title="Video Duration Comparison Across Genres"
-  ></iframe>
-</div>
-
-
-Long outliers (up to 100,000 seconds) appear in both BR and FPS—usually stream replays.  
-Removing them reveals a tighter distribution: all major genres produce videos in the 8–16 minute range.
-
-This strongly suggests that BR creators did not adopt a specific video format responsible for boosting engagement.  
-Thus, the enthusiasm for BR content likely stems from the genre itself, not from fundamentally different production strategies.
-
