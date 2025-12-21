@@ -151,10 +151,12 @@ Preprocessing the full YouNiverse comments archive (77GB) pushed our machines to
 Battle Royale isn't the only exploding thing, our laptops too...
 </blockquote>
 
+Before diving into the analysis, we separated the dataset into three subgroups based on the number of comments per authors: authors that commented between 5 and 10 times, 10 and 20 times and 20 and 60 times. This allowed us to handle the big quantity of data and also to understand better the dynamic.
+
 <!-- ================================================= -->
 <!-- 3.1 -->
 <h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
-(3.1) Were Battle Royale commenters new to YouTube gaming?
+  Were Battle Royale commenters new to YouTube gaming?
 </h2>
 
 <p>
@@ -166,7 +168,7 @@ This approximation is reliable for active users, who typically comment shortly a
 </p>
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
-  (3.1.1) Was the emergence of Battle Royal accompagnied by the emergence of a group of active users?
+  Was the emergence of Battle Royal accompagnied by the emergence of a group of active users?
 </h3>
 
 <p>
@@ -213,7 +215,7 @@ In conclusion, Battle Royale emerges as a <strong>major entry point</strong> int
 
 <!-- ================================================= -->
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
-  (3.1.2) Did Battle Royale make commenters stick to the genre?
+  Did Battle Royale make commenters stick to the genre?
 </h3>
 
 <p>
@@ -286,7 +288,7 @@ In summary, Battle Royale shows the strongest retention, with users more likely 
 <!-- ================================================= -->
 <!-- 3.2 -->
 <h2 id="commenter-origin" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  (3.2) From which communities did Battle Royale commenters migrate?
+  From which communities did Battle Royale commenters migrate?
 </h2>
 
 <p>
@@ -318,7 +320,7 @@ The largest sources of migration come from Sandbox and FPS, confirming patterns 
 
 <!-- ================================================= -->
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
-  (3.2.2) How did this migration evolve over time?
+  How did this migration evolve over time?
 </h3>
 
 <p>
@@ -385,7 +387,7 @@ A similar dynamic is observed for Sandbox content. Although the redirection of a
 <!-- ================================================= -->
 <!-- 3.3 -->
 <h2 id="engagement-dynamics" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  (3.3) Did engagement dynamics differ for Battle Royale content?
+  Did engagement dynamics differ for Battle Royale content?
 </h2>
 
 <p>
@@ -406,7 +408,7 @@ when compared to Sandbox, the second most engaging genre.
 
 
 <h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
-  (3.4) Synthesis: Viewers dynamics
+  Synthesis: Viewers dynamics
 </h2>
 
 <p>
