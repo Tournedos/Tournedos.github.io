@@ -189,8 +189,22 @@ We approach Battle Royale not as a single event, but as a shock to an existing e
 <h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
     Game Selection: Building a Representative Panel
 </h3>
+To decide which games actually matter in our analysis, we start from Twitch rather than YouTube. We use the public Kaggle dataset “Top games on Twitch 2016–2023” by Kartik Kirsh, which lists the monthly top 200 games on Twitch together with hours watched, hours streamed and average viewers [Twitch Dataset](https://www.kaggle.com/datasets/rankirsh/evolution-of-top-games-on-twitch).
 
-Rather than manually selecting games, we use **Twitch viewership data** to identify which titles actually mattered during the BR era. We use the Kaggle dataset "Top games on Twitch 2016–2023" (Kartik Kirsh), which tracks monthly hours watched, hours streamed, and average viewers for the top 200 games.
+<figure>
+  <img src="/assets/img/img_0/twitch1.png" alt="Scheme" width="20000px">
+  <figcaption style="color: #666666; font-style: italic;">
+    Top 50 games from Twitch dataset
+  </figcaption>
+</figure>
+
+**Which games dominate Twitch in our panel?**
+
+League of Legends is clearly the most watched game on Twitch during this period. Following it, Fortnite, Dota 2, and CS:GO form the next tier, showing that MOBAs and FPS titles remain the backbone of Twitch from 2016 to 2019. Battle Royale games already occupy a central role, Fortnite ranks second overall and PUBG sits among the top tier alongside long-established games like Hearthstone, Overwatch, and World of Warcraft
+
+Other games in the top 50 include enduring esports titles such as Rocket League, Smash Bros., and Rainbow Six Siege, which maintain strong and persistent positions. Annual sports franchises like FIFA and NBA 2K appear regularly, reflecting yearly releases and competitive cycles. Large sandbox and open-world games such as Minecraft, GTA V, ARK, DayZ, and RDR2 also sustain high watch time due to their versatile gameplay and persistent communities.
+
+Overall, this panel highlights the core structure of Twitch during these years, MOBAs, FPS, evergreen sandboxes, and major esports, while showing how Battle Royale titles quickly reached top-tier attention, competing with long-standing favorites.
 
 <h3 style="color:#003c9e;"> Selection Process</h3>
 
@@ -221,28 +235,6 @@ Rather than manually selecting games, we use **Twitch viewership data** to ident
 </div>
 This approach ensures our game panel reflects actual platform dynamics rather than researcher intuition.
 
-
-
-<h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
-    Selecting our game panel from Twitch
-</h3>
-
-To decide which games actually matter in our analysis, we start from Twitch rather than YouTube. We use the public Kaggle dataset “Top games on Twitch 2016–2023” by Kartik Kirsh, which lists the monthly top 200 games on Twitch together with hours watched, hours streamed and average viewers [Twitch Dataset](https://www.kaggle.com/datasets/rankirsh/evolution-of-top-games-on-twitch).
-
-<figure>
-  <img src="/assets/img/img_0/twitch1.png" alt="Scheme" width="20000px">
-  <figcaption style="color: #666666; font-style: italic;">
-    Top 50 games from Twitch dataset
-  </figcaption>
-</figure>
-
-**Which games dominate Twitch in our panel?**
-
-League of Legends is clearly the most watched game on Twitch during this period. Following it, Fortnite, Dota 2, and CS:GO form the next tier, showing that MOBAs and FPS titles remain the backbone of Twitch from 2016 to 2019. Battle Royale games already occupy a central role, Fortnite ranks second overall and PUBG sits among the top tier alongside long-established games like Hearthstone, Overwatch, and World of Warcraft
-
-Other games in the top 50 include enduring esports titles such as Rocket League, Smash Bros., and Rainbow Six Siege, which maintain strong and persistent positions. Annual sports franchises like FIFA and NBA 2K appear regularly, reflecting yearly releases and competitive cycles. Large sandbox and open-world games such as Minecraft, GTA V, ARK, DayZ, and RDR2 also sustain high watch time due to their versatile gameplay and persistent communities.
-
-Overall, this panel highlights the core structure of Twitch during these years, MOBAs, FPS, evergreen sandboxes, and major esports, while showing how Battle Royale titles quickly reached top-tier attention, competing with long-standing favorites.
 
 
 
