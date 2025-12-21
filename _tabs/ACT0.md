@@ -157,23 +157,23 @@ Rather than manually selecting games, we use **Twitch viewership data** to ident
   <div class="question-box-title">Key Reflexions</div>
   <ul style="list-style-type:disc; padding-left:1.2rem;">
     <li>
-      <a href="#q1" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">1. Time Window</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">1. Time Window</span>:<br>
       <span style="font-weight:normal;">Restrict to 2016–2019 (the core BR emergence period)</span>
     </li>
     <li>
-      <a href="#q2" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">2. Category Filtering</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">2. Category Filtering</span>:<br>
       <span style="font-weight:normal;">Remove non-game categories (Just Chatting, Creative, etc.)</span>
     </li>
     <li>
-      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">3. License Aggregation</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">3. License Aggregation</span>:<br>
       <span style="font-weight:normal;">Merge annual releases into unified franchises (all FIFA entries → `FIFA`, all Call of Duty entries → `Call of Duty`)</span>
     </li>
     <li>
-      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">4. Top 50 Panel</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">4. Top 50 Panel</span>:<br>
       <span style="font-weight:normal;">Rank by total hours watched and select the 50 most-viewed licenses</span>
     </li>
     <li>
-      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">5. Genre Annotation</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">5. Genre Annotation</span>:<br>
       <span style="font-weight:normal;">Manually assign each license to one of 12 high-level genres</span>
     </li>
   </ul>
