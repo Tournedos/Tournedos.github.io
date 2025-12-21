@@ -44,12 +44,12 @@ order: 6
   </li>
   <li>
     <strong>Core mechanism Scheme</strong> — 
-    <a href="/assets/img/img_1/Scheme2.png" target="_blank">view image</a>
+    <span href="/assets/img/img_1/Scheme2.png" target="_blank">view image</span>
     (Made by hand using a "LucidChart")
   </li>
   <li>
     <strong>BR's Timeline overview</strong> — 
-    <a href="/assets/img/img_1/Scheme1.png" target="_blank">view image</a>
+    <span href="/assets/img/img_1/Scheme1.png" target="_blank">view image</span>
     (Made by hand using a "LucidChart")
   </li>
 </ul>
@@ -89,7 +89,7 @@ order: 6
   </li>
   <li>
     <strong>Fortnite dominating other genres</strong> — 
-    <a href="/assets/img/img_1/domination.png" target="_blank">view image</a>
+    <span href="/assets/img/img_1/domination.png" target="_blank">view image</span>
     (AI-generated, ChatGPT – OpenAI)
   </li>
 </ul>
