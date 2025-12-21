@@ -144,21 +144,8 @@ order: 6
   </li>
 </ul>
 
-<h3>Conclusion and avatar/picture</h3>
+<h3>Avatar</h3>
 <ul>
-  <li>
-    <strong>GIF</strong> — 
-    <a href="/assets/img/img_2/apex_legend.jpg" target="_blank">view image</a>
-    (
-    <a
-      href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2F4kwallpapers.com%2Fgames%2Fapex-legends-video-12712.html&ved=0CBUQjRxqFwoTCICsr_jUz5EDFQAAAAAdAAAAABAI&opi=89978449"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Source
-    </a>
-    )
-  </li>
   <li>
     <strong>Avatar, image on top left</strong> — 
     <a href="/assets/img/avatar1.png" target="_blank">view image</a>
