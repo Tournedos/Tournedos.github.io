@@ -131,13 +131,13 @@ or whether it pulled attention away from pre-existing gaming communities.
 
 <blockquote style="font-style:italic; opacity:0.85;">
 Preprocessing the full YouNiverse comments archive (77GB) pushed our machines to their limits.
-Battle Royale wasn’t the only thing exploding in 2017.
+Battle Royale isn't the only exploding thing, our laptops too...
 </blockquote>
 
 <!-- ================================================= -->
 <!-- 3.1 -->
 <h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
-3.1 – Were Battle Royale commenters new to YouTube gaming?
+(3.1) Were Battle Royale commenters new to YouTube gaming?
 </h2>
 
 <p>
@@ -148,7 +148,9 @@ of the commented video.
 This approximation is reliable for active users, who typically comment shortly after publication.
 </p>
 
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">3.1.1 - Was the emergence of Battle Royal accompagnied by the emergence of a group of active users?</h3>
+<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
+  (3.1.1) Was the emergence of Battle Royal accompagnied by the emergence of a group of active users?
+</h3>
 
 <p>
 By identifying entry genres, we assess whether the emergence of Battle Royale coincided
@@ -169,16 +171,21 @@ with the arrival of a new population of engaged commenters.
 </div>
 
 <p>
-Sandbox remains the dominant entry point into YouTube gaming,
-largely due to the long-term popularity of Minecraft.
-However, Battle Royale consistently ranks among the top entry genres.
-Millions of users wrote their first gaming comment on a Battle Royale video.
+The <strong>Genre Entry Points</strong> plot highlights the genre through which commenters first entered the YouTube gaming ecosystem. This analysis allows us to assess whether the rise of Battle Royale coincided with the emergence of a new community of active users. Entering through Battle Royale suggests that the genre itself acted as a gateway into YouTube gaming, potentially triggering strong initial engagement.
 </p>
 
 <p>
-This indicates that Battle Royale did not merely redistribute existing audiences,
-but actively contributed to the emergence of a new population of active commenters.
+For less active authors, Sandbox is the dominant entry point, which is expected given its long-standing presence in the ecosystem. Nevertheless, Battle Royale emerges as a major secondary entry genre, indicating that a substantial number of users became active through this newly emerging genre. As we move toward more active authors, Sandbox and FPS gradually gain importance as entry points, while Battle Royale becomes relatively less dominant.
 </p>
+
+<p>
+This shift can be explained by differences in user seniority. Highly active commenters are more likely to have been present on YouTube gaming before the rise of Battle Royale and therefore could not have entered the ecosystem through it. Overall, these results confirm that while Battle Royale played a key role in attracting new users, older and more active users were more likely to have entered through earlier-established genres.
+</p>
+
+<p>
+In conclusion, Battle Royale emerges as a <strong>major entry point</strong> into the YouTube gaming ecosystem. Across all user activity levels, it consistently ranks among the most common genres for first-ever gaming comments. This indicates that the rise of Battle Royale was not only a redistribution of existing audiences, but also coincided with the arrival of a new population of active commenters, reshaping the dynamics of YouTube gaming communities.
+</p>
+
 
 <!-- IMAGE DE TRANSITION -->
 <div style="display:flex; justify-content:center; margin:2rem 0;">
@@ -189,7 +196,7 @@ but actively contributed to the emergence of a new population of active commente
 
 <!-- ================================================= -->
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
-3.1.2 – Did Battle Royale make commenters stick to the genre?
+  (3.1.2) Did Battle Royale make commenters stick to the genre?
 </h3>
 
 <p>
@@ -212,7 +219,7 @@ This allows us to evaluate the “hook” effect of Battle Royale compared to ot
 </div>
 
 <p>
-By focusing on the three main entry genres—Sandbox, Battle Royale, and FPS—we observe clear differences in how commenters’ interests evolve over time. Authors who entered through Sandbox mostly remained within that genre, although a noticeable fraction later engaged with Battle Royale content. Battle Royale stands out as the most retentive genre: users who entered through BR were the most likely to continue interacting primarily with BR videos, suggesting the formation of a particularly loyal community. In contrast, FPS shows weaker retention, with many commenters gradually shifting their activity toward Battle Royale. Overall, these patterns indicate that Battle Royale not only retained its own audience more effectively than other genres, but also attracted users from FPS, pointing to a broader shift of community interest toward Battle Royale content. 
+By focusing on the three main entry genres (Sandbox, Battle Royale, and FPS) we observe clear differences in how commenters’ interests evolve over time. Authors who entered through Sandbox mostly remained within that genre, although a noticeable fraction later engaged with Battle Royale content. Battle Royale stands out as the most retentive genre: users who entered through BR were the most likely to continue interacting primarily with BR videos, suggesting the formation of a particularly loyal community. In contrast, FPS shows weaker retention, with many commenters gradually shifting their activity toward Battle Royale. Overall, these patterns indicate that Battle Royale not only retained its own audience more effectively than other genres, but also attracted users from FPS, pointing to a broader shift of community interest toward Battle Royale content. 
 </p>
 
 <div class="slider">
@@ -248,16 +255,10 @@ For the most active authors, the same trends become even more pronounced. Sandbo
 </p>
 
 <p>
-Battle Royale exhibits the strongest retention: most commenters who enter through BR
-continue to engage primarily with BR content.
-Sandbox also shows strong loyalty, while FPS displays weaker retention.
+In summary, Battle Royale shows the strongest retention, with users more likely to remain engaged than in other genres. Sandbox and FPS exhibit weaker loyalty, with many commenters gradually shifting toward Battle Royale. This effect strengthens with user activity, highlighting Battle Royale’s ability to sustain <strong>long-term</strong> engagement and community loyalty.
 </p>
 
-<p>
-A substantial fraction of FPS-origin commenters progressively migrate toward Battle Royale,
-indicating a shift of interest between these two genres.
-This effect becomes stronger as user activity increases.
-</p>
+
 
 <div style="display:flex; justify-content:center; margin:2rem 0;">
   <img src="/assets/img/img_3/fortnite_detective.png"
@@ -268,7 +269,7 @@ This effect becomes stronger as user activity increases.
 <!-- ================================================= -->
 <!-- 3.2 -->
 <h2 id="commenter-origin" style="color:#003c9e; font-size:2rem; font-weight:600;">
-3.2 – From which communities did Battle Royale commenters migrate?
+  (3.2) From which communities did Battle Royale commenters migrate?
 </h2>
 
 <p>
@@ -295,19 +296,12 @@ The Sankey diagrams illustrate how YouTube gaming commenters migrated toward Bat
 </p>
 
 <p>
-The largest sources of migration come from Sandbox and FPS, confirming patterns observed earlier in the analysis. These genres act as the main reservoirs of users who later engage with Battle Royale. At the same time, the presence of smaller flows from a wide range of other genres—such as Single Player / Open World, Sports, MOBA, and Nintendo—shows that Battle Royale attracted users with diverse gaming interests. This highlights Battle Royale’s role not only as a dominant genre, but also as a cross-genre hub capable of unifying audiences from across the YouTube gaming ecosystem.
-</p>
-
-
-<p>
-Most Battle Royale commenters originally engaged with
-Sandbox, FPS, Single Player / Open World, and Sports content.
-This highlights Battle Royale’s ability to attract users from a broad range of communities.
+The largest sources of migration come from Sandbox and FPS, confirming patterns observed earlier in the analysis. These genres act as the main reservoirs of users who later engage with Battle Royale. At the same time, the presence of smaller flows from a wide range of other genres (such as Single Player / Open World, Sports, MOBA, and Nintendo) shows that Battle Royale attracted users with diverse gaming interests. This highlights Battle Royale’s role not only as a dominant genre, but also as a cross-genre hub capable of unifying audiences from across the YouTube gaming ecosystem.
 </p>
 
 <!-- ================================================= -->
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">
-3.2.2 – How did this migration evolve over time?
+  (3.2.2) How did this migration evolve over time?
 </h3>
 
 <p>
@@ -374,7 +368,7 @@ A similar dynamic is observed for Sandbox content. Although the redirection of a
 <!-- ================================================= -->
 <!-- 3.3 -->
 <h2 id="engagement-dynamics" style="color:#003c9e; font-size:2rem; font-weight:600;">
-3.3 – Did engagement dynamics differ for Battle Royale content?
+  (3.3) Did engagement dynamics differ for Battle Royale content?
 </h2>
 
 <p>
@@ -395,5 +389,25 @@ when compared to Sandbox, the second most engaging genre.
 
 
 <h2 id="audience-steal" style="color:#003c9e; font-size:2rem; font-weight:600;">
-3.4 – Conclusion
+  (3.4) Synthesis: Viewers dynamics
 </h2>
+
+<p>
+Our analysis confirms that the Battle Royale (BR) explosion was not merely a surge in content production, but a deep transformation of viewer dynamics within the YouTube gaming ecosystem. This shift can be summarized along three main dimensions.
+</p>
+
+<p>
+<strong>A gateway for new audiences</strong> Battle Royale emerged as a major entry point into YouTube gaming, attracting a substantial share of new active commenters. This effect is particularly visible among less active and newer users, suggesting that BR successfully brought fresh audiences into the ecosystem rather than simply recycling existing ones. While some migration from Sandbox and FPS communities is observed, this pattern largely reflects the natural evolution of long-term users toward emerging genres.
+</p>
+
+<p>
+<strong>Strong retention and hook effect</strong> Battle Royale displays the highest retention among all genres. Users who first engaged with BR content were more likely to remain loyal to the genre over time, while established genres (especially FPS) experienced a noticeable loss of active commenters toward BR. This highlights BR’s exceptional ability to capture and sustain audience attention.
+</p>
+
+<p>
+<strong>Higher engagement intensity</strong> Beyond audience size, Battle Royale content generated stronger engagement, with viewers reacting more actively than in other genres. This suggests that BR did not only attract viewers, but fostered higher enthusiasm and involvement within its community.
+</p>
+
+<p>
+<strong>Final verdict</strong> The Battle Royale era marked a turning point for YouTube gaming. It expanded the ecosystem by attracting new users, redirected engagement from established communities, and built a highly loyal and engaged audience, reshaping viewer behavior at a platform-wide scale.
+</p>

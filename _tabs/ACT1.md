@@ -100,7 +100,6 @@ We address three main questions:
 
 
 
-
 To keep the analysis readable, we focus on the top 7 gaming genres, which capture the vast majority of uploads and views during the period. Smaller genres are excluded as they do not affect the global dynamics and would only clutter the figures.
 
 <div class = "plot-card">
@@ -120,7 +119,7 @@ To keep the analysis readable, we focus on the top 7 gaming genres, which captur
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Why is 2017–2018 our period of interest?</h3>
 
 - The Battle Royale explosion occurs precisely between 2017 and 2018.  
-- This boom is driven by the rapid rise of H1Z1, PUBG, and especially Fortnite.  
+- This boom is driven by the rapid rise of PUBG and especially Fortnite.  
 - Studying this window captures the disruptive impact of BR on YouTube gaming.  
 - Confirming that the Top-7 genres remain stable in this period ensures that filtering does not distort the ecosystem’s dynamics.
 
@@ -151,26 +150,6 @@ Sandbox and FPS remain strong throughout the period, but neither displays a comp
 
 ---
 
-<!--- <div style="display:flex; align-items:center; justify-content:space-between; gap:1.5rem; margin:2.5rem 0;">
-  
-  <h3 style="color:#003c9e; margin:0; font-size:1.7rem; font-weight:900;">
-    Relative shares within the gaming ecosystem
-  </h3>
-
-  <img 
-    src="/assets/img/cake2.png" 
-    alt="Image"
-    style="
-      width:160px;
-      height:auto;
-      border-radius:14px;
-      object-fit:cover;
-      display:block;
-      box-shadow:0 4px 12px rgba(0,0,0,0.2);
-    "
-  >
-
-</div> --->
 
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Relative shares within the gaming ecosystem</h3>
 
@@ -179,7 +158,7 @@ Looking at shares rather than absolute volumes clarifies how BR reshaped the upp
 Before 2017, FPS and Sandbox dominate uploads and views. During the BR boom, Battle Royale rapidly gains share—mostly at the expense of Sandbox in views and modestly at the expense of both Sandbox and FPS in uploads.  
 Importantly, mid-tier genres remain remarkably stable, indicating that the disruption is concentrated at the top of the hierarchy.
 
-By 2018–2019, BR occupies a persistent and large share of both uploads and views, confirming that the eruption is structural rather than transient.
+By 2018–2019, BR occupies a <strong>persistent and large</strong> share of both uploads and views, confirming that the eruption is structural rather than transient.
 
 <!-- FIGURE: Share of uploads & views by genre (stacked area plots) -->
 <div class = "plot-card">
@@ -277,7 +256,7 @@ To identify which games truly drive BR discussions, we track the frequency of ga
 Fortnite overwhelmingly dominates the conversation from late 2017 onward, far exceeding PUBG, H1Z1 and Apex Legends.  
 PUBG plays a crucial early role, while H1Z1 remains limited in scale and Apex Legends produces a visible but short-lived shock.
 
-This confirms that the BR eruption is not only genre-driven, but largely Fortnite-driven.
+This confirms that the BR eruption is not only genre-driven, but largely **Fortnite-driven**.
 
 <!-- FIGURE: Mentions of BR game names over time -->
 <div class = "plot-card">
