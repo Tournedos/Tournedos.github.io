@@ -73,20 +73,37 @@ html.dark .plot-card {
   max-width: 1100px;
   margin: 2rem auto;
 }
-.slider::-webkit-scrollbar { display: none; }
-.slide { min-width: 100%; scroll-snap-align: start; }
-.slide iframe { width: 100%; height: 75vh; border: none; }
-
+.slider::-webkit-scrollbar { 
+  display: none; 
+}
+.slide { 
+  min-width: 100%; 
+  scroll-snap-align: start; 
+}
+.slide iframe { 
+  width: 100%; 
+  height: 75vh; 
+  border: none; 
+}
 .slider-dots {
   display: flex;
   justify-content: center;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
   gap: 10px;
 }
 .slider-dot {
-  width: 12px; height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background: #bfc7d6;
+  background: #c7d2f0;
+  opacity: 0.6;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: inline-block;
+}
+.slider-dot:hover {
+  opacity: 1;
+  background: #657dccff;
+  transform: scale(1.2);
 }
 </style>
 

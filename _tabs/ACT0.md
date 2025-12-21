@@ -48,7 +48,7 @@ The modern Battle Royale “boom” occurred in the mid-to-late 2010s, with wide
 
 - 2017 — PlayerUnknown’s Battlegrounds (PUBG) brings the mod formula to a commercial Steam release, popularizing the now-standard loop: ~100 players drop from a plane, loot, and fight inside a shrinking circle.
 - 2017 — Fortnite Battle Royale launches as a free mode, quickly reaching a wider audience than PUBG, helped by its accessibility, building mechanics, and cross-platform support.
-- 2019–2020 — pex Legends and Call of Duty: Warzone integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a mainstream competitive format.
+- 2019–2020 — Apex Legends and Call of Duty: Warzone integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a mainstream competitive format.
 
 In this project, we focus on the modern wave of Battle Royale titles (from H1Z1, PUBG, and Fortnite onwards) and study how their rise reshaped YouTube gaming content.
 
@@ -191,32 +191,30 @@ To train genre classifiers without manual labeling, we first construct a referen
 
 This conservative filtering yields a very clean reference set of around 3.8M videos (≈28% of the 13.7M gaming videos). Each of these videos is then given a subgenre label based on the detected game.
 
-<h3 style="color:#003c9e;">Step 2 : Training genre classifiers on metadata</h3>
+<h3 style="color:#003c9e;">Step 2 : Detecting channel-level genre phases over time</h3>
 
-From this single-game reference set, we train one binary classifier per genre (12 models in total):
+Rather than assigning a fixed genre to each channel, we model how creators’ focus evolves over time by detecting
+genre phases. This approach captures specialization, diversification, and genre pivoting
+(e.g. FPS → Battle Royale), which cannot be inferred from individual videos alone.
 
-- Positive class: videos whose detected game belongs to that genre.
-- Negative class: videos from all other genres.
-- To keep training balanced and efficient, we downsample to at most 50k positives + 50k negatives per genre.
+For each video upload, we apply the following procedure:
 
-Each model combines two types of features:
+- Consider the last 21 videos uploaded by the channel
+- Compute the genre distribution within this rolling window
+- If one genre exceeds 50%, assign the channel to that genre’s phase
+- Otherwise, label the channel as genreless (diverse or experimental content)
 
-- TF-IDF representations of cleaned title, description and tags.
-- Genre-specific vocabulary scores, built from curated dictionaries of key terms, game names and typical expressions.
+Phase boundaries are stored as
+<code>(channel_id, genre, start_date, end_date, video_count)</code>.
 
-A logistic regression classifier is trained on the resulting feature matrix. Internal validation shows that this hybrid representation systematically outperforms TF-IDF or vocabulary scores alone.
+We tested window sizes of 11, 21, and 31 videos. A window of 21 videos provides the best balance:
 
-<h3 style="color:#003c9e;">Step 3 : Classifying the full YouTube gaming set and enforcing a single-genre rule</h3>
+- filters out short-lived experiments
+- captures sustained genre commitment
+- detects early Battle Royale adoption without excessive noise
 
-We apply the 12 trained classifiers to all 13.7M gaming videos.  
-A video is considered classified if at least one model predicts it as positive, which yields about 6.6M classified videos (≈48%).
+The resulting file (<code>all_channel_phases.csv</code>) contains a complete timeline of genre phases per channel
+and forms the basis for all subsequent analyses of creator behavior.
 
-To obtain disjoint panels:
-
-- For each video, we count how many genres predicted it as positive.
-- We keep videos with exactly one positive genre label and store them in single_genre_videos.csv.
-- Videos with two or more positive labels are stored in multi_genre_videos.csv and excluded from the main analysis.
-
-After this filtering step, we obtain 12 clean, non-overlapping YouTube genre panels. These panels form the basis for all subsequent analyses on how the rise of Battle Royale reshapes the broader gaming ecosystem on YouTube.
 
 
