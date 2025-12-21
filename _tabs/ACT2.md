@@ -109,10 +109,6 @@ To understand **creator migration patterns**, we follow each channel’s main ge
 
 By tracking these movements, we can reconstruct BR’s rise from the perspective of creators rather than aggregate views.
 
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Phase Transition Heatmaps: Before vs After H1Z1</h3>
-
-We compared how creators moved between genres before and after the release of H1Z1, the first major BR title. By counting and weighting these transitions, we get a sense of how the BR wave reshaped creators’ trajectories, even if the raw numbers aren’t shown here.
-
 
 <h3 id="transition-correlations" style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Quarterly and Yearly Transition Dynamics</h3>
 
@@ -249,18 +245,6 @@ To test whether Battle Royale accelerates channel growth, we compare **subscri
 
 Across both pooled and paired analyses, channels experience faster subscriber growth during Battle Royale phases than in other genres. This holds even when controlling for channel-specific effects, confirming that BR offered a genuine growth advantage rather than merely reflecting a fleeting trend. The genre’s **rapid audience expansion** translated into **measurable benefits for individual creators**.
 
-
-<h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Upload Frequency Analysis</h3>
-
-Next, we ask whether BR creators **upload content at different rates than creators in other genres**. Using the same pooled and paired designs, we calculate videos per day for each channel and compare BR versus non‑BR phases. Non‑parametric tests (*Mann–Whitney U, Wilcoxon signed‑rank*) are again employed due to skewed distributions, with parametric tests included for robustness.
-
-<iframe src="/assets/plots/plots_2/upload_freq_per_subscriber.html"
-        style="width:100%; height:100vh; border:none;"></iframe>
-
-BR channels post more frequently than other creators on average (pooled analysis, p < 0.001), suggesting that prolific uploaders were more likely to adopt the genre. However, within‑channel comparisons reveal **no significant change in posting rate** when switching to BR. In other words, adopting BR does not make creators post more often; instead, channels that already upload frequently are the ones joining BR.
-
-Looking at uploads relative to audience size (videos per subscriber) adds another layer: BR creators rank among the lowest, showing that adoption was driven by **audience opportunity** rather than extra effort or intrinsic motivation. Battle Royale rewarded channels with existing momentum, not higher relative output.
-
 <h3 style="color:#4f6fd6; font-size:1.5rem; font-weight:500;">Phase Duration by Genre</h3>
 
 If BR primarily **attracted opportunists** rather than committed creators, we would expect BR phases to be shorter. To test this, we compare the duration of BR phases to phases in other genres using both pooled and paired analyses. Phase duration is measured as the number of days a channel remains in a single genre phase.
@@ -289,4 +273,4 @@ Adoption patterns highlight BR’s broad appeal. While FPS still tops with 20 
   Creator Response: General Synthesis
 </h2>
 
-Across Act 2, Battle Royale reshaped creator behaviour **without cannibalising other genres**. After 2017, BR transitions surge, surpassing FPS and becoming the typical first phase for new channels. Correlations confirm that inflows to FPS and others remain stable, showing BR **expanded the ecosystem rather than displaced it**. At the channel level, BR phases deliver a growth premium but are ****shorter** and **do not boost upload intensity**. High adoption coupled with **brief engagement frames** BR as a catalyst: widely tried, quickly rewarding, but rarely a long-term home. In short, BR opened new pathways, encouraged diversification, and offered creators a surge of opportunity without eroding existing foundations.
+Across Act 2, Battle Royale reshaped creator behaviour **without cannibalising other genres**. After 2017, BR transitions surge, surpassing FPS and becoming the typical first phase for new channels. Correlations confirm that inflows to FPS and others remain stable, showing BR **expanded the ecosystem rather than displaced it**. At the channel level, BR phases deliver a growth premium but are **shorter** and **do not boost upload intensity**. High adoption coupled with **brief engagement frames** BR as a catalyst: widely tried, quickly rewarding, but rarely a long-term home. In short, BR opened new pathways, encouraged diversification, and offered creators a surge of opportunity without eroding existing foundations.

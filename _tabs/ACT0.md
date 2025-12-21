@@ -48,7 +48,7 @@ The modern Battle Royale “boom” occurred in the mid-to-late 2010s, with wide
 
 - 2017 — PlayerUnknown’s Battlegrounds (PUBG) brings the mod formula to a commercial Steam release, popularizing the now-standard loop: ~100 players drop from a plane, loot, and fight inside a shrinking circle.
 - 2017 — Fortnite Battle Royale launches as a free mode, quickly reaching a wider audience than PUBG, helped by its accessibility, building mechanics, and cross-platform support.
-- 2019–2020 — Apex Legends and Call of Duty: Warzone integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a mainstream competitive format.
+- 2019–2020 — Apex Legends and Call of Duty: Warzone integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a mainstream competitive format. Of course we are not able to study the boom brought by Warzone since the dataset stops before it's official release.
 
 In this project, we focus on the modern wave of Battle Royale titles (from H1Z1, PUBG, and Fortnite onwards) and study how their rise reshaped YouTube gaming content.
 
