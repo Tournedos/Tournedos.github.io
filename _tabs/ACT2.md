@@ -181,6 +181,11 @@ Together, these perspectives build a comprehensive picture of whether BR’s ris
 We first examine how the distribution of channels across genres evolved over time. A channel is counted as "in" a genre during a quarter if its phase overlaps with that quarter. This stacked area chart shows the relative share of each genre (excluding *Genreless*) from 2015 to 2019.
 
 <iframe
+  src="/assets/plots/plots_2/genre_composition_interactive.html"
+  style="width:100%; height:70vh; border:none;">
+</iframe>
+
+<iframe
   src="/assets/plots/plots_2/br_inflows_sankey.html"
   style="width:100%; height:70vh; border:none;">
 </iframe>
