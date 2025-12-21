@@ -183,9 +183,13 @@ While market share charts show relative shifts, they do not reveal where Battle�
   style="width:100%; height:70vh; border:none;">
 </iframe>
 
-Direct inflow analysis confirms that **FPS channels fed most of BR’s growth**, with 912 transitions—more than twice that of the next contributor, Sandbox. Sports and Single Player/Open World follow, while MOBA and MMORPG contribute relatively few. This pattern aligns with mechanical overlap: BR shares shooting, looting, map navigation, and competitive mechanics with these genres, making the transitions natural.
+The Sankey diagram and the distribution of first detected phases together provide a clear picture of the **origins of Battle Royale creators**. 
 
-Temporally, inflows are low in 2015–2016, surge in 2017, peak during the 2018 Fortnite boom, and taper as BR matures in 2019. By early 2018, BR overtakes FPS and Sandbox as the dominant first phase for new channels. Yet, raw counts alone cannot prove cannibalization, large FPS→BR flows might simply reflect FPS’s overall size. To clarify, we next examine correlations between BR inflows and inflows to other genres.
+Rather than emerging solely in isolation, BR drew in part from pre-existing creators specialized in another genre. The largest inflow into BR comes from FPS, followed by Sandbox, Sports, and Single Player / Open World, while traditionally competitive genres such as MOBA and MMORPG contribute relatively few creators. This structure highlights that BR primarily attracted creators whose prior content already shared mechanical or audience overlap with the genre.
+
+The first detected phase plot complements this view by capturing how entry points into YouTube gaming evolved over time. Before 2017, FPS clearly dominated as the main entry genre for new channels. From 2017 onward, this pattern shifts sharply: Battle Royale becomes the most common first detected genre, coinciding with the Fortnite boom. This indicates that BR did not only attract existing creators from adjacent genres, but also became the default entry point for a new generation of channels.
+
+Taken together, these two visualisations show that BR creators originated from two distinct but reinforcing sources: a reorientation of creators previously active in other genres, and a wave of new entrants for whom BR constituted their initial positioning on the platform. Yet, raw counts alone cannot prove cannibalization in existing creators, as large FPS→BR flows might for example simply reflect FPS’s overall size. To clarify, we next examine correlations between BR inflows and inflows to other genres.
 
 ---
 

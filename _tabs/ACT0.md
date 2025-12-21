@@ -13,52 +13,8 @@ title: "ACT 0 - Introduction"
 </div>
 
 ---
-
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  What defines a Battle Royale game?
-</h2>
-
-In this project, we define Battle Royale (BR) games as a specific subgenre of online multiplayer games where a large number of players compete in the same match with a single objective: be the last player (or team) alive. Although implementations differ from game to game, most Battle Royale titles share a common set of mechanics:
-
-
-
-<figure>
-  <figcaption style="text-align: center;color: #666666; font-style: italic;">
-  Core mechanisms of a battle royale game</figcaption>
-  <img src="/assets/img/img_0/Scheme2.png" alt="Scheme" width="800px">
-</figure>
-
-From a content perspective, these characteristics make Battle Royale games extremely YouTube-friendly:  
-they naturally generate clutch moments, comebacks, chaotic endgames, and highlight-worthy plays, which are ideal for short-form clips, montages, and high-intensity streams.
-
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-  A short historical background of the Battle Royale genre
-</h2>
-
-The idea behind Battle Royale in games predates the genre label itself. On the fiction side, many authors and films explored “last-person-standing” death games. A clear reference point in game journalism is Koushun Takami’s 1999 novel Battle Royale and its 2000 film adaptation, in which a group of students is forced to fight until only one survives. Several game journalists explicitly link the structure of modern Battle Royale games to this story template.
-
-On the game design side, the genre evolved from mods for survival and sandbox games in the early 2010s. Key early experiments included:
-
-- Community “Hunger Games” / Survival Games plugins for Minecraft around 2012.
-- DayZ and later Arma 2 / Arma 3 survival mods.
-- Brendan “PlayerUnknown” Greene’s Battle Royale mods, introducing large lobbies, random loot, and a shrinking safe zone on military-style maps.
-- H1Z1: King of the Kill (2015), one of the first standalone shooters built fully around this format.
-
-The modern Battle Royale “boom” occurred in the mid-to-late 2010s, with widely recognized milestones:
-
-- 2017 — PlayerUnknown’s Battlegrounds (PUBG) brings the mod formula to a commercial Steam release, popularizing the now-standard loop: ~100 players drop from a plane, loot, and fight inside a shrinking circle.
-- 2017 — Fortnite Battle Royale launches as a free mode, quickly reaching a wider audience than PUBG, helped by its accessibility, building mechanics, and cross-platform support.
-- 2019–2020 — Apex Legends and Call of Duty: Warzone integrate Battle Royale into large existing franchises, attracting tens of millions of players within weeks, confirming BR as a mainstream competitive format. Of course we are not able to study the boom brought by Warzone since the dataset stops before it's official release.
-
-In this project, we focus on the modern wave of Battle Royale titles (from H1Z1, PUBG, and Fortnite onwards) and study how their rise reshaped YouTube gaming content.
-
-
-<h2 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
-    Project guidelines and research questions
-</h2>
-
-Our goal is to tell a structured, data-driven story about how Battle Royale (BR) games enter and reshape YouTube gaming.
-To do this, we organize the project into five main steps, each with its own guiding questions:
+Between 2016 and 2019, Battle Royale reshaped online gaming culture. What began as a niche format rapidly became a dominant genre, triggering massive shifts in creator strategies, audience attention, and platform dynamics.
+This study leverages the **YouNiverse dataset** (~32M gaming videos, 137k channels) to quantify how Battle Royale reshaped YouTube's gaming landscape. We develop a hybrid classification system combining TF-IDF vectorization and domain-specific dictionaries to label videos across 12 gaming genres, then apply rolling-window phase detection to track creator specialization over time.
 
 <style>
   .question-box {
@@ -71,7 +27,6 @@ To do this, we organize the project into five main steps, each with its own guid
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 6px 18px rgba(0,0,0,0.18);
   }
-
   .question-box-title {
     font-weight: 800;
     font-size: 1.15rem;
@@ -79,7 +34,6 @@ To do this, we organize the project into five main steps, each with its own guid
     margin-bottom: 0.6rem;
     letter-spacing: 0.06em;
   }
-
   html[data-theme="dark"] .question-box {
     --qbox-bg: #003cbd;
     border-color: rgba(255,255,255,0.15);
@@ -89,66 +43,193 @@ To do this, we organize the project into five main steps, each with its own guid
 
 ---
 
-<div class="question-box" style="display:flex; gap:2rem;">
-  <a href="/act1/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
-    <div style="font-size:2rem; font-weight:bold;">ACT 1</div>
-    <div>THE ERUPTION</div>
-    <small>“How did BR explode onto YouTube’s gaming landscape, and did the momentum persist?”</small>
-  </a>
-  <a href="/act2/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
-    <div style="font-size:2rem; font-weight:bold;">ACT 2</div>
-    <div>CREATOR RESPONSE</div>
-    <small>“How did YouTube creators adapt to the BR phenomenon, and did those behaviors stick?”</small>
-  </a>
-  <a href="/act3/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
-    <div style="font-size:2rem; font-weight:bold;">ACT 3</div>
-    <div>AUDIENCE SHIFTS</div>
-    <small>“Did viewers migrate to BR, and how did community dynamics change?”</small>
-  </a>
-</div>
+Our findings reveal Battle Royale not as a transient trend but as a structural transformation in gaming content production, triggering unprecedented creator migration and audience reallocation.
+
+
+<h2 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
+  The Rise of Battle Royale: Impact on YouTube's Gaming Landscape
+</h2>
+
+<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
+  What defines a Battle Royale game?
+</h2>
+
+In this project, we define Battle Royale (BR) games as a specific subgenre of online multiplayer games where a large number of players compete in the same match with a single objective: be the last player (or team) alive. Although implementations differ from game to game, most Battle Royale titles share a common set of mechanics:
+
+<figure>
+  <figcaption style="text-align: center;color: #666666; font-style: italic;">
+  Core mechanisms of a battle royale game</figcaption>
+  <img src="/assets/img/img_0/Scheme2.png" alt="Scheme" width="800px">
+</figure>
+
+These characteristics make Battle Royale games exceptionally well-suited for streaming and YouTube content. The format naturally generates clutch moments, comebacks, and chaotic endgames—ideal for highlights, montages, and high-intensity streams.
+
+Importantly, this combination of mechanics allows Battle Royale games to be unambiguously identified as a distinct genre, even relative to their closest parent genre, First-Person Shooters (FPS). While BR titles often inherit core FPS mechanics such as aiming and weapon handling, features like permanent elimination, large player counts, and match-wide survival dynamics fundamentally differentiate Battle Royale from traditional FPS formats based on rounds, respawns, and team score objectives.
+
+
+
+
+
+
+<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
+  Historical Context : The Battle Royale Timeline
+</h2>
+
+<h3 style="color:#003c9e;"> From Community Experiments to Genre Shock</h3>
+
+Battle Royale did not originate from top-down studio design. It emerged from grassroots experimentation, where players repurposed existing games to explore a simple but powerful idea: survival as the sole win condition.
 
 <figure>
   <img src="/assets/img/img_0/Scheme1.png" alt="Scheme" width="600px">
   <figcaption style="text-align: center;color: #666666; font-style: italic;">Overview of Battle Royale emergence and impact, following the YouNiverse Timescale</figcaption>
 </figure>
 
+<h3 style="color:#003c9e;"> Pre-History: Community Mods (2012–2015)</h3>
+
+Early Battle Royale mechanics appeared in marginal spaces of the gaming ecosystem. Minecraft “Hunger Games” servers introduced large-scale survival competition, while Brendan Greene’s **Battle Royale** mod for **DayZ** formalized the last-player-standing loop within a military simulator. With **H1Z1: King of the Kill**, the format reached Steam Early Access, but remained confined to niche survival communities.
+
+At this stage, Battle Royale existed as a design prototype rather than a mainstream genre.
+
+<h3 style="color:#003c9e;"> The Breakthrough (2016–2017)</h3>
+
+The transition from niche to mass adoption occurred abruptly.  
+In early 2017, **PUBG** launched as a standalone title and rapidly became one of the most played and most watched games on Twitch, propelled by influencer visibility. Later that year, **Fortnite Battle Royale** removed remaining barriers through free-to-play access, cross-platform support, and a more expressive, streamer-friendly design. By early 2018, Fortnite had overtaken PUBG in viewership, marking Battle Royale’s full entry into popular culture.
+
+This period represents a structural break: Battle Royale was no longer an experiment, but a dominant competitive format.
+
+
+<h3 style="color:#003c9e;"> Genre Consolidation (2018–2019)</h3>
+
+Following this success, Battle Royale entered a phase of consolidation. Established franchises integrated BR modes, while new titles such as **Apex Legends** refined the formula with hero abilities and fast-paced team play. By mid-2019, Battle Royale had stabilized as a core pillar of multiplayer gaming, alongside MOBAs and traditional FPS.
+
+Innovation slowed, but adoption widened.
+
+
+<h3 style="color:#003c9e;"> Why YouTube Matters</h3>
+
+If Twitch captured the live explosion of Battle Royale, YouTube recorded its long-term effects. Tutorials, highlights, montages, and edited streams accumulated over time, reflecting sustained creator strategies rather than ephemeral hype. YouTube therefore provides a privileged lens on durable content production, specialization, and audience reallocation.
+
+<h3 style="color:#003c9e;"> Research Positioning</h3>
+
+This project asks a simple question: **how did the 2016–2019 Battle Royale wave reshape YouTube’s gaming ecosystem?**
+
+We approach Battle Royale not as a single event, but as a shock to an existing equilibrium—one that forced creators and viewers to redistribute attention, effort, and engagement across genres.
+
+
+
+
+
+
 
 <h2 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
-    Selecting our game panel from Twitch
+    Research Framework
 </h2>
+
+<div class="question-box" style="display:flex; gap:2rem;">
+  <a href="/act1/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 1</div>
+    <div>THE ERUPTION</div>
+    <small>“When and how did Battle Royale emerge on YouTube ?”</small>
+  </a>
+  <a href="/act2/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 2</div>
+    <div>CREATOR RESPONSE</div>
+    <small>“How did creators adapt to Battle Royale's expansion ?”</small>
+  </a>
+  <a href="/act3/" style="text-align:center; color: inherit; text-decoration: none;border-bottom:none;">
+    <div style="font-size:2rem; font-weight:bold;">ACT 3</div>
+    <div>AUDIENCE SHIFTS</div>
+    <small>“How did audiences respond to this Youtube Perturbation ?”</small>
+  </a>
+</div>
+
+
+
+<h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
+    Game Selection: Building a Representative Panel
+</h3>
+
+Rather than manually selecting games, we use **Twitch viewership data** to identify which titles actually mattered during the BR era. We use the Kaggle dataset "Top games on Twitch 2016–2023" (Kartik Kirsh), which tracks monthly hours watched, hours streamed, and average viewers for the top 200 games.
+
+<h3 style="color:#003c9e;"> Selection Process</h3>
+
+<div class="question-box">
+  <div class="question-box-title">Key Reflexions</div>
+  <ul style="list-style-type:disc; padding-left:1.2rem;">
+    <li>
+      <a href="#q1" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">1. Time Window</a>:<br>
+      <span style="font-weight:normal;">Restrict to 2016–2019 (the core BR emergence period)</span>
+    </li>
+    <li>
+      <a href="#q2" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">2. Category Filtering</a>:<br>
+      <span style="font-weight:normal;">Remove non-game categories (Just Chatting, Creative, etc.)</span>
+    </li>
+    <li>
+      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">3. License Aggregation</a>:<br>
+      <span style="font-weight:normal;">Merge annual releases into unified franchises (all FIFA entries → `FIFA`, all Call of Duty entries → `Call of Duty`)</span>
+    </li>
+    <li>
+      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">4. Top 50 Panel</a>:<br>
+      <span style="font-weight:normal;">Rank by total hours watched and select the 50 most-viewed licenses</span>
+    </li>
+    <li>
+      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">5. Genre Annotation</a>:<br>
+      <span style="font-weight:normal;">Manually assign each license to one of 12 high-level genres</span>
+    </li>
+  </ul>
+</div>
+This approach ensures our game panel reflects actual platform dynamics rather than researcher intuition.
+
+<h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
+    Data Source: YouNiverse Dataset
+</h3>
+
+**YouNiverse** is a large-scale YouTube dataset curated by EPFL, designed for research on content dynamics, creator behavior, and platform evolution.
+
+<b>Dataset Specifications</b>
+<table>
+  <tr>
+    <th>Dimension</th>
+    <th>Full Dataset</th>
+    <th>Gaming Subset (This Study)</th>
+  </tr>
+  <tr>
+    <td>Videos</td>
+    <td>~73M</td>
+    <td>~32M</td>
+  </tr>
+  <tr>
+    <td>Channels</td>
+    <td>~137k</td>
+    <td>~84k</td>
+  </tr>
+  <tr>
+    <td>Time Period</td>
+    <td>2005–2019</td>
+    <td>2014–2019 (filtered)</td>
+  </tr>
+  <tr>
+    <td>Metadata</td>
+    <td>Title, description, tags, category, upload_date</td>
+    <td>Same</td>
+  </tr>
+  <tr>
+    <td>Timeseries</td>
+    <td>Views, likes, dislikes, comments (daily/weekly)</td>
+    <td>Same</td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>~8.6B</td>
+    <td>Subset analyzed</td>
+  </tr>
+</table>
+
+<h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
+    Selecting our game panel from Twitch
+</h3>
 
 To decide which games actually matter in our analysis, we start from Twitch rather than YouTube. We use the public Kaggle dataset “Top games on Twitch 2016–2023” by Kartik Kirsh, which lists the monthly top 200 games on Twitch together with hours watched, hours streamed and average viewers [Twitch Dataset](https://www.kaggle.com/datasets/rankirsh/evolution-of-top-games-on-twitch).
-
-From this dataset we build our game panel in four main steps:
-
-<h2 style="color:#003c9e; font-size:1.5rem; font-weight:900 !important;">
-    Time window and cleaning
-</h2>
-<h3 style="color:#003c9e;"> Time window and cleaning</h3>
-
-- We keep only the years 2016–2019, which cover the main rise of modern Battle Royale titles.  
-- We drop non-game categories (e.g. Just Chatting, Special Events, Creative, Poker), so that we only track actual video games.
-
-
-<h3 style="color:#003c9e;"> Aggregate popularity per licence</h3>
-
-- For each game, we sum hours watched over all months in 2016–2019.  
-- We then merge yearly releases into a single licence (e.g. all FIFA entries → FIFA, all Call of Duty entries → Call of Duty) and recompute total hours watched per licence.
-
-
-<h3 style="color:#003c9e;"> Top-50 core panel</h3>
-
-- We rank licences by total hours watched and keep the top 50.  
-- These 50 licences form our core panel of games that actually structure Twitch viewership during the Battle Royale era.
-
-<h3 style="color:#003c9e;"> Manual genre annotation</h3>
-
-
-- Each licence is manually mapped to one of our high-level genres:  
-  Battle Royale, FPS, MOBA, Sports, Sandbox, MMORPG, Strategy, Single Player / Open World, Nintendo, Card / CCG, Fighting, Horror.  
-- The result is stored in `data/filtered/twitch/games_selected.csv`.
-
-Within this panel, licences annotated as Battle Royale (e.g. H1Z1 / Z1: Battle Royale, PLAYERUNKNOWN’S BATTLEGROUNDS, Fortnite, Apex Legends) form our BR game set, which we will later try to trace on YouTube using genre classification.
 
 <figure>
   <img src="/assets/img/img_0/twitch1.png" alt="Scheme" width="20000px">
@@ -165,82 +246,5 @@ Other games in the top 50 include enduring esports titles such as Rocket League,
 
 Overall, this panel highlights the core structure of Twitch during these years, MOBAs, FPS, evergreen sandboxes, and major esports, while showing how Battle Royale titles quickly reached top-tier attention, competing with long-standing favorites.
 
-<h2 style="color:#003c9e; font-size:2.0rem; margin-top:2rem;">From YouTube metadata to clean game-genre panels</h2>
 
-So far, we have defined our 12 game genres and built a Twitch-based top-50 game panel. We now need to find the corresponding videos on YouTube and keep only those that clearly belong to one genre.
-
-We rely on the YouNiverse dataset and use only its English gaming subset:
-
-- `yt_metadata_en`: video-level metadata (title, description, tags, upload date, views…)
-- `df_channels_en` and `df_timeseries_en`: to filter channels labelled as Gaming
-- num_comments` / `num_comments_authors`: comment activity
-
-After restricting to gaming videos, we obtain about 13.7 million YouTube gaming videos. From there, our pipeline has three main steps.
-
-<h3 style="color:#003c9e;">Step 1 : Building a high-precision reference set (single-game videos)</h3>
-
-To train genre classifiers without manual labeling, we first construct a reference dataset of single-game videos:
-
-- We merge each video’s title, description and tags into a single searchable string.
-- We scan this text with a master regex containing all known variants of the top-50 games  
-  (e.g. pubg | playerunknown's battlegrounds | gta v | gta 5 | grand theft auto v).
-- Using a synonyms dictionary, every match is mapped back to a canonical game name, which is then mapped to exactly one of our 12 genres.
-- We only keep videos that mention exactly one tracked game:
-  - videos with no game mention are dropped;
-  - videos mentioning several games (even within the same genre) are also removed, to avoid ambiguous labels.
-
-This conservative filtering yields a very clean reference set of around 3.8M videos (≈28% of the 13.7M gaming videos). Each of these videos is then given a subgenre label based on the detected game.
-
-<h3 style="color:#003c9e;">Step 2 : Training genre classifiers on metadata</h3>
-
-From this single-game reference set, we train one binary classifier per genre (12 models in total):
-
-- Positive class: videos whose detected game belongs to that genre.
-- Negative class: videos from all other genres.
-- To keep training balanced and efficient, we downsample to at most 50k positives + 50k negatives per genre.
-
-Each model combines two types of features:
-
-- TF-IDF representations of cleaned title, description and tags.
-- Genre-specific vocabulary scores, built from curated dictionaries of key terms, game names and typical expressions.
-
-A logistic regression classifier is trained on the resulting feature matrix. Internal validation shows that this hybrid representation systematically outperforms TF-IDF or vocabulary scores alone.
-
-<h3 style="color:#003c9e;">Step 3 : Classifying the full YouTube gaming set and enforcing a single-genre rule</h3>
-
-We apply the 12 trained classifiers to all 13.7M gaming videos.  
-A video is considered classified if at least one model predicts it as positive, which yields about 6.6M classified videos (≈48%).
-
-To obtain disjoint panels:
-
-- For each video, we count how many genres predicted it as positive.
-- We keep videos with exactly one positive genre label and store them in single_genre_videos.csv.
-- Videos with two or more positive labels are stored in multi_genre_videos.csv and excluded from the main analysis.
-
-After this filtering step, we obtain 12 clean, non-overlapping YouTube genre panels. These panels form the basis for all subsequent analyses on how the rise of Battle Royale reshapes the broader gaming ecosystem on YouTube.
-
-<h3 style="color:#003c9e;">Step 4 : Detecting channel-level genre phases over time</h3>
-
-Rather than assigning a fixed genre to each channel, we model how creators’ focus evolves over time by detecting
-genre phases. This approach captures specialization, diversification, and genre pivoting
-(e.g. FPS → Battle Royale), which cannot be inferred from individual videos alone.
-
-For each video upload, we apply the following procedure:
-
-- Consider the last 21 videos uploaded by the channel
-- Compute the genre distribution within this rolling window
-- If one genre exceeds 50%, assign the channel to that genre’s phase
-- Otherwise, label the channel as genreless (diverse or experimental content)
-
-Phase boundaries are stored as
-<code>(channel_id, genre, start_date, end_date, video_count)</code>.
-
-We tested window sizes of 11, 21, and 31 videos. A window of 21 videos provides the best balance:
-
-- filters out short-lived experiments
-- captures sustained genre commitment
-- detects early Battle Royale adoption without excessive noise
-
-The resulting file (<code>all_channel_phases.csv</code>) contains a complete timeline of genre phases per channel
-and forms the basis for all subsequent analyses of creator behavior.
 
