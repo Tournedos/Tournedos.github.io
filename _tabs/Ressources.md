@@ -28,10 +28,30 @@ order: 6
     Images Credits
 </h2>
 
-<h3>Act 0</h3>
+<h3>Act 0 / Introduction</h3>
 <ul>
-  <li>Image X — Source: Unsplash</li>
-  <li>Image Y — Generated using ChatGPT (OpenAI)</li>
+  <li>
+    <strong>Victory Royale Logo</strong> — 
+    <a href="/assets/img/img_0/victoryroyale.png" target="_blank">view image</a>
+    (
+    <a
+      href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-fueng&ved=0CBUQjRxqFwoTCNC7xcrTz5EDFQAAAAAdAAAAABAH&opi=89978449"
+      target="_blank"
+      rel="noopener noreferrer">
+      Source
+    </a>
+    )
+  </li>
+  <li>
+    <strong>Core mechanism Scheme</strong> — 
+    <a href="/assets/img/img_1/Scheme2.png" target="_blank">view image</a>
+    (Made by hand using a "LucidChart")
+  </li>
+  <li>
+    <strong>BR's Timeline overview</strong> — 
+    <a href="/assets/img/img_1/Scheme1.png" target="_blank">view image</a>
+    (Made by hand using a "LucidChart")
+  </li>
 </ul>
 
 <h3>Act 1</h3>
@@ -76,9 +96,30 @@ order: 6
 
 
 
-<h3>Act 2</h3>
+<h3>Act 1</h3>
 <ul>
-  <li>Creator economy illustration — Source: Pexels</li>
+  <li>
+    <strong>Apex Legends wallpaper</strong> — 
+    <a href="/assets/img/img_2/apex_legend.jpg" target="_blank">view image</a>
+    (
+    <a
+      href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2F4kwallpapers.com%2Fgames%2Fapex-legends-video-12712.html&ved=0CBUQjRxqFwoTCICsr_jUz5EDFQAAAAAdAAAAABAI&opi=89978449"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Source
+    </a>
+    )
+  </li>
+  <li>
+    <strong>Battlebus from Fortnite</strong> — 
+    <a href="/assets/img/img_2/battlebus.png" target="_blank">view image</a>
+    (
+    <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Ffortnite-battle-royale-bus-playerunknowns-battlegrounds-battle-royale-game-png-free-download-in-2024--465911523967088407%2F&ved=0CBUQjRxqFwoTCKjG2IvVz5EDFQAAAAAdAAAAABAI&opi=89978449" target="_blank" rel="noopener noreferrer">
+      Source
+    </a>
+    )
+  </li>
 </ul>
 
 <h3>Act 3</h3>
@@ -103,7 +144,36 @@ order: 6
   </li>
 </ul>
 
+<h3>Conclusion and avatar/picture</h3>
+<ul>
+  <li>
+    <strong>GIF</strong> — 
+    <a href="/assets/img/img_2/apex_legend.jpg" target="_blank">view image</a>
+    (
+    <a
+      href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2F4kwallpapers.com%2Fgames%2Fapex-legends-video-12712.html&ved=0CBUQjRxqFwoTCICsr_jUz5EDFQAAAAAdAAAAABAI&opi=89978449"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Source
+    </a>
+    )
+  </li>
+  <li>
+    <strong>Avatar, image on top left</strong> — 
+    <a href="/assets/img/avatar1.png" target="_blank">view image</a>
+    (
+    <a href="https://www.pngegg.com/en/png-ybxre" target="_blank" rel="noopener noreferrer">
+      Source
+    </a>
+    )
+  </li>
+</ul>
+
 
 <p style="font-size:0.9rem; opacity:0.75;">
   Language editing and proofreading were assisted using ChatGPT (OpenAI).
 </p>
+
+
+

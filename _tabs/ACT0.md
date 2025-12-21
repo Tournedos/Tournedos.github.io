@@ -107,7 +107,7 @@ Innovation slowed, but adoption widened.
 
 <h3 style="color:#003c9e;"> Why YouTube Matters</h3>
 
-If Twitch captured the live explosion of Battle Royale, YouTube recorded its long-term effects. Tutorials, highlights, montages, and edited streams accumulated over time, reflecting sustained creator strategies rather than ephemeral hype. YouTube therefore provides a privileged lens on durable content production, specialization, and audience reallocation.
+YouTube recorded its long-term effects. Tutorials, highlights, montages, and edited streams accumulated over time, reflecting sustained creator strategies rather than ephemeral hype. YouTube therefore provides a privileged lens on durable content production, specialization, and audience reallocation.
 
 <h3 style="color:#003c9e;"> Research Positioning</h3>
 
@@ -115,9 +115,50 @@ This project asks a simple question: **how did the 2016–2019 Battle Royale wav
 
 We approach Battle Royale not as a single event, but as a shock to an existing equilibrium—one that forced creators and viewers to redistribute attention, effort, and engagement across genres.
 
+<h2 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
+    Data Source: YouNiverse Dataset
+</h2>
 
+**YouNiverse** is a large-scale YouTube dataset curated by EPFL, designed for research on content dynamics, creator behavior, and platform evolution.
 
-
+<b>Dataset Specifications</b>
+<table>
+  <tr>
+    <th>Dimension</th>
+    <th>Full Dataset</th>
+    <th>Gaming Subset (This Study)</th>
+  </tr>
+  <tr>
+    <td>Videos</td>
+    <td>~73M</td>
+    <td>~32M</td>
+  </tr>
+  <tr>
+    <td>Channels</td>
+    <td>~137k</td>
+    <td>~84k</td>
+  </tr>
+  <tr>
+    <td>Time Period</td>
+    <td>2005–2019</td>
+    <td>2014–2019 (filtered)</td>
+  </tr>
+  <tr>
+    <td>Metadata</td>
+    <td>Title, description, tags, category, upload_date</td>
+    <td>Same</td>
+  </tr>
+  <tr>
+    <td>Timeseries</td>
+    <td>Views, likes, dislikes, comments (daily/weekly)</td>
+    <td>Same</td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>~8.6B</td>
+    <td>Subset analyzed</td>
+  </tr>
+</table>
 
 
 
@@ -180,50 +221,7 @@ Rather than manually selecting games, we use **Twitch viewership data** to ident
 </div>
 This approach ensures our game panel reflects actual platform dynamics rather than researcher intuition.
 
-<h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
-    Data Source: YouNiverse Dataset
-</h3>
 
-**YouNiverse** is a large-scale YouTube dataset curated by EPFL, designed for research on content dynamics, creator behavior, and platform evolution.
-
-<b>Dataset Specifications</b>
-<table>
-  <tr>
-    <th>Dimension</th>
-    <th>Full Dataset</th>
-    <th>Gaming Subset (This Study)</th>
-  </tr>
-  <tr>
-    <td>Videos</td>
-    <td>~73M</td>
-    <td>~32M</td>
-  </tr>
-  <tr>
-    <td>Channels</td>
-    <td>~137k</td>
-    <td>~84k</td>
-  </tr>
-  <tr>
-    <td>Time Period</td>
-    <td>2005–2019</td>
-    <td>2014–2019 (filtered)</td>
-  </tr>
-  <tr>
-    <td>Metadata</td>
-    <td>Title, description, tags, category, upload_date</td>
-    <td>Same</td>
-  </tr>
-  <tr>
-    <td>Timeseries</td>
-    <td>Views, likes, dislikes, comments (daily/weekly)</td>
-    <td>Same</td>
-  </tr>
-  <tr>
-    <td>Comments</td>
-    <td>~8.6B</td>
-    <td>Subset analyzed</td>
-  </tr>
-</table>
 
 <h3 style="color:#003c9e; font-size:2rem; font-weight:900 !important;">
     Selecting our game panel from Twitch
