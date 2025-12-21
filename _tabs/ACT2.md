@@ -90,19 +90,19 @@ To understand **creator migration patterns**, we follow each channel’s main ge
   <div class="question-box-title">Key Questions for Phase Transition Dynamics</div>
   <ul>
     <li>
-      <a style="color:white; text-decoration:none; border-bottom:none;">
+      <span style="color:white; text-decoration:none; border-bottom:none;">
         How did genre preferences evolve over time ?
-      </a>
+      </span>
     </li>
     <li>
-      <a style="color:white; text-decoration:none; border-bottom:none;">
+      <span style="color:white; text-decoration:none; border-bottom:none;">
         When did BR emerge as a significant destination ?
-      </a>
+      </span>
     </li>
     <li>
-      <a style="color:white; text-decoration:none; border-bottom:none;">
+      <span style="color:white; text-decoration:none; border-bottom:none;">
         Which genres served as sources for BR creators ?
-      </a>
+      </span>
     </li>
   </ul>
 </div>
@@ -144,15 +144,15 @@ Did Battle Royale grow by eating other genres, or did it expand the ecosystem?
   <div class="question-box-title">Key Questions for Genre Cannibalisation Analysis</div>
   <ul style="list-style-type:disc; padding-left:1.2rem;">
     <li>
-      <a href="#q1" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Genre proportions over time</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Genre proportions over time</span>:<br>
       <span style="font-weight:normal;">How did the share of active channels in each genre evolve ?</span>
     </li>
     <li>
-      <a href="#q2" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Direct inflows to BR</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Direct inflows to BR</span>:<br>
       <span style="font-weight:normal;">Which genres did BR creators come from ?</span>
     </li>
     <li>
-      <a href="#q3" style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Transition correlations</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Transition correlations</span>:<br>
       <span style="font-weight:normal;">Do quarterly inflows to BR correlate (negatively) with inflows to other genres ?</span>
     </li>
   </ul>
@@ -226,11 +226,11 @@ To understand how Battle Royale participation shapes creator behaviour, we ado
   <div class="question-box-title">Complementary Analytical Designs</div>
   <ul style="list-style-type:disc; padding-left:1.2rem;">
     <li>
-      <a style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Pooled analyses</a>:<br>
+      <span style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Pooled analyses</span>:<br>
       <span style="font-weight:normal;">Compare BR phases against non‑BR phases across all channels to capture population‑level differences.</span>
     </li>
     <li>
-      <a  style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Within‑channel (paired) analyses</a>:<br>
+      <span  style="color:white; text-decoration:none; font-weight:bold;border-bottom:none;">Within‑channel (paired) analyses</span>:<br>
       <span style="font-weight:normal;">Contrast each creator’s behaviour during BR phases with their own behaviour in other phases to control for stable channel characteristics.</span>
     </li>
   </ul>
