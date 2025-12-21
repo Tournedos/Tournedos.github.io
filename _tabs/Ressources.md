@@ -103,3 +103,8 @@ order: 6
     (AI-generated, ChatGPT – OpenAI)
   </li>
 </ul>
+
+
+<p style="font-size:0.9rem; opacity:0.75;">
+  Language editing and proofreading were assisted using ChatGPT (OpenAI).
+</p>

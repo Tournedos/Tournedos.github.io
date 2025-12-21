@@ -191,7 +191,35 @@ To train genre classifiers without manual labeling, we first construct a referen
 
 This conservative filtering yields a very clean reference set of around 3.8M videos (≈28% of the 13.7M gaming videos). Each of these videos is then given a subgenre label based on the detected game.
 
-<h3 style="color:#003c9e;">Step 2 : Detecting channel-level genre phases over time</h3>
+<h3 style="color:#003c9e;">Step 2 : Training genre classifiers on metadata</h3>
+
+From this single-game reference set, we train one binary classifier per genre (12 models in total):
+
+- Positive class: videos whose detected game belongs to that genre.
+- Negative class: videos from all other genres.
+- To keep training balanced and efficient, we downsample to at most 50k positives + 50k negatives per genre.
+
+Each model combines two types of features:
+
+- TF-IDF representations of cleaned title, description and tags.
+- Genre-specific vocabulary scores, built from curated dictionaries of key terms, game names and typical expressions.
+
+A logistic regression classifier is trained on the resulting feature matrix. Internal validation shows that this hybrid representation systematically outperforms TF-IDF or vocabulary scores alone.
+
+<h3 style="color:#003c9e;">Step 3 : Classifying the full YouTube gaming set and enforcing a single-genre rule</h3>
+
+We apply the 12 trained classifiers to all 13.7M gaming videos.  
+A video is considered classified if at least one model predicts it as positive, which yields about 6.6M classified videos (≈48%).
+
+To obtain disjoint panels:
+
+- For each video, we count how many genres predicted it as positive.
+- We keep videos with exactly one positive genre label and store them in single_genre_videos.csv.
+- Videos with two or more positive labels are stored in multi_genre_videos.csv and excluded from the main analysis.
+
+After this filtering step, we obtain 12 clean, non-overlapping YouTube genre panels. These panels form the basis for all subsequent analyses on how the rise of Battle Royale reshapes the broader gaming ecosystem on YouTube.
+
+<h3 style="color:#003c9e;">Step 4 : Detecting channel-level genre phases over time</h3>
 
 Rather than assigning a fixed genre to each channel, we model how creators’ focus evolves over time by detecting
 genre phases. This approach captures specialization, diversification, and genre pivoting
@@ -215,6 +243,4 @@ We tested window sizes of 11, 21, and 31 videos. A window of 21 videos provides 
 
 The resulting file (<code>all_channel_phases.csv</code>) contains a complete timeline of genre phases per channel
 and forms the basis for all subsequent analyses of creator behavior.
-
-
 
