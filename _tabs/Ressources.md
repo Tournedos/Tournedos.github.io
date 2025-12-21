@@ -87,8 +87,7 @@ order: 6
     <strong>Comment bubble illustration</strong> — 
     <a href="/assets/img/img_3/comment.png" target="_blank">View image</a>
     (
-    <a href="" target="_blank" rel="noopener noreferrer">
-      Source
+    <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fyoutube-like&ved=0CBUQjRxqFwoTCLD5mbWWz5EDFQAAAAAdAAAAABAI&opi=89978449" target="_blank" rel="noopener noreferrer">
     </a>
     )
   </li>
